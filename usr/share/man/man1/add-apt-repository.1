@@ -1,50 +1,44 @@
-.TH "add-apt-repository" "1"
+.TH ADD\-APT\-REPOSITORY 1 "October 2026" "menta-sources" "User Commands"
 .SH NAME
-add-apt-repository \- Adds a repository into the 
-/etc/apt/sources.list or /etc/apt/sources.list.d 
-or removes an existing one
+add\-apt\-repository, apt\-add\-repository \- add or remove an APT repository
 .SH SYNOPSIS
-.B add-apt-repository \fI[OPTIONS]\fR \fIREPOSITORY\fR
+.B add\-apt\-repository
+.RI [ OPTIONS ]
+.I REPOSITORY
 .SH DESCRIPTION
-.B add-apt-repository
-is a script which adds an external APT repository to either
-/etc/apt/sources.list or a file in /etc/apt/sources.list.d/ 
-or removes an already existing repository.
-
-The options supported by add-apt-repository are:
-
-.B -h, --help
-Show help message and exit
-
-.B -y, --yes
-Assume yes to all queries
-
+.B add\-apt\-repository
+adds a repository to
+.IR /etc/apt/sources.list.d/additional\-repositories.list ,
+or removes an existing one from any source file.
+It must be run as root.
+.SH OPTIONS
+.TP
+.BR \-h ", " \-\-help
+Show a help message and exit.
+.TP
+.BR \-y ", " \-\-yes
+Assume yes to all queries.
+.TP
+.BR \-r ", " \-\-remove
+Remove the repository instead of adding it.
 .SH REPOSITORY STRING
-\fIREPOSITORY\fR can be either a line that can be added directly to
-sources.list(5), in the form ppa:<user>/<ppa-name> for adding Personal
-Package Archives, or a distribution component to enable.
-
-In the first form, \fIREPOSITORY\fR will just be appended to 
-/etc/apt/sources.list.
-
-In the second form, ppa:<user>/<ppa-name> will be expanded to the full deb line
-of the PPA and added into a new file in the /etc/apt/sources.list.d/
-directory.
-The GPG public key of the newly added PPA will also be downloaded and
-added to apt's keyring.
-
-In the third form, the given distribution component will be enabled for all
-sources.
-
+.I REPOSITORY
+is either a line in the
+.BR sources.list (5)
+one\-line format, for instance
+.PP
+.RS
+deb [signed\-by=/usr/share/keyrings/example.gpg] https://example.com/debian trixie main
+.RE
+.PP
+or a short form made of a URL followed by components, which is expanded
+with the codename of the running Debian release:
+.PP
+.RS
+add\-apt\-repository "https://example.com/debian main contrib"
+.RE
+.PP
+PPAs are built for Ubuntu and are not supported.
 .SH SEE ALSO
-\fBsources.list\fR(5)
-
-.SH COPYRIGHT
-This manual page was written by Chow Loong Jin <hyperair@gmail.com> for the
-Debian system (but may be used by others). Permission is granted to copy,
-distribute and/or modify this document under the terms of the GNU General Public
-License, Version 2 or any later version published by the Free Software
-Foundation.
-
-On Debian systems, the complete text of the GNU General Public License can be
-found in /usr/share/common-licenses.
+.BR sources.list (5),
+.BR menta\-sources (1)

@@ -1,5 +1,9 @@
 #!/bin/bash
 
-intltool-extract --type=gettext/glade usr/lib/linuxmint/mintSources/mintsources.glade
-xgettext --language=Python --keyword=_ --keyword=N_ --output=mintsources.pot usr/lib/linuxmint/mintSources/mintSources.py usr/lib/linuxmint/mintSources/ppa_browser.py usr/lib/linuxmint/mintSources/foreign_packages.py usr/bin/software-sources usr/bin/add-apt-repository generate_desktop_files usr/lib/linuxmint/mintSources/mintsources.glade.h
-rm -f usr/lib/linuxmint/mintSources/mintsources.glade.h
+xgettext --language=Python --keyword=_ --keyword=N_ --from-code=UTF-8 --output=menta-sources.pot \
+    usr/lib/menta-sources/menta_sources.py \
+    usr/lib/menta-sources/foreign_packages.py \
+    usr/bin/add-apt-repository
+xgettext --join-existing --from-code=UTF-8 --output=menta-sources.pot \
+    usr/lib/menta-sources/menta-sources.ui \
+    usr/share/applications/menta-sources.desktop

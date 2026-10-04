@@ -1,0 +1,520 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-04 01:32-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: usr/lib/menta-sources/menta_sources.py:64
+msgid "Free software supported by Debian"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:65
+msgid "Free software which depends on non-free software"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:66
+msgid "Software which doesn't comply with the Debian Free Software Guidelines"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:67
+msgid "Non-free firmware for hardware support"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:71
+msgid "Important security updates"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:72
+msgid "Recommended updates"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:73
+msgid "Newer versions of selected packages (backports)"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:74
+msgid "Updates proposed for the next point release"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:75
+msgid "Experimental packages"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:164
+#, python-format
+msgid "Used by: %s"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:184
+msgid "CD-ROM (Installation Disc)"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:186
+msgid "Local Repository"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:247
+msgid "Country"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:252
+msgid "Server"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:258
+msgid "Speed"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:287
+msgid "Worldwide"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:347
+#: usr/lib/menta-sources/menta_sources.py:361
+msgid "kB/s"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:350
+msgid "MB/s"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:353
+msgid "GB/s"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:410
+msgid "Obsolete"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:413
+msgid "Unreachable"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:563
+#: usr/lib/menta-sources/menta-sources.ui:8
+#: usr/share/applications/menta-sources.desktop:2
+msgid "Software Sources"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:606
+msgid "Enabled"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:612
+msgid "Repository"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:627
+msgid "Key"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:719
+msgid "There is no residual configuration on the system."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:721
+msgid "The configuration files of the following packages will be deleted:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:727
+msgid "There is no more residual configuration on the system."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:742
+msgid "The problem was fixed. Please reload the cache."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:755
+msgid "Duplicate entries were removed. Please reload the cache."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:760
+msgid "No duplicate entries were found."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:776
+msgid ""
+"Error with your APT configuration, you may have to reload the cache first."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:888
+msgid "All missing keys were successfully added."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:890
+msgid "Not all missing keys could be found."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:893
+msgid "Keys were added for the following repositories:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:897
+msgid "Keys are still missing for the following repositories:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:898
+msgid ""
+"Add the remaining missing key(s) manually or remove the corresponding "
+"repositories."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:906
+msgid "Please reload the cache."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:911
+msgid "No missing keys were found."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:971
+msgid "Import Key File"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:974
+#: usr/lib/menta-sources/foreign_packages.py:269
+#: usr/lib/menta-sources/menta-sources.ui:747
+msgid "_Cancel"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:975
+msgid "_Import"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:979
+msgid "Key files"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:987
+msgid "All files"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1004
+msgid "No key could be imported from this file."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1012
+#, python-format
+msgid ""
+"Please enter the fingerprint of the public key you want to download from %s:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1019
+msgid "The key could not be downloaded."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1025
+msgid "Are you sure you want to permanently remove the selected keys?"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1046
+msgid "Please enter the APT line of the repository you want to add:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1051 usr/bin/add-apt-repository:42
+msgid "Malformed input, repository not added."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1054
+msgid "This repository is already configured, you cannot add it a second time."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1066
+msgid "Are you sure you want to permanently remove the selected repositories?"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1171
+#, python-format
+msgid "The official Debian repositories were moved to %s."
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1172
+msgid "Backups of the previous configuration:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta_sources.py:1198
+msgid ""
+"Experimental contains packages which are under development and may be "
+"broken. They are only installed when you explicitly ask for them. Are you "
+"sure you want to enable Experimental?"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:125
+msgid "These changes would leave broken packages on the system."
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:140
+msgid "Foreign Packages"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:148
+msgid "_Downgrade"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:149
+msgid ""
+"The version of the following packages doesn't match the one provided by "
+"Debian:"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:151
+#: usr/lib/menta-sources/menta-sources.ui:404
+#: usr/lib/menta-sources/menta-sources.ui:501
+#: usr/lib/menta-sources/menta-sources.ui:901
+msgid "_Remove"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:152
+msgid ""
+"The packages below are installed on your computer but not present in the "
+"repositories:"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:174
+msgid "Package"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:179
+msgid "Installed version"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:185
+msgid "Repository version"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:241
+#: usr/lib/menta-sources/foreign_packages.py:335
+#: usr/lib/menta-sources/menta-sources.ui:880
+msgid "Select _All"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:268
+msgid "Review the changes below carefully before applying them."
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:270
+msgid "_Apply"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:274
+msgid "The following packages will be removed:"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:276
+msgid "The following packages will be installed or downgraded:"
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:305
+msgid "The selected packages can't be processed."
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:327
+msgid "An error occurred while applying the changes."
+msgstr ""
+
+#: usr/lib/menta-sources/foreign_packages.py:337
+msgid "C_lear"
+msgstr ""
+
+#: usr/bin/add-apt-repository:24
+msgid "Error: must run as root"
+msgstr ""
+
+#: usr/bin/add-apt-repository:28
+msgid "Error: need a repository as argument"
+msgstr ""
+
+#: usr/bin/add-apt-repository:34
+msgid "PPAs are built for Ubuntu and are not supported on Debian."
+msgstr ""
+
+#: usr/bin/add-apt-repository:49
+msgid "Repository not found."
+msgstr ""
+
+#: usr/bin/add-apt-repository:52
+#, python-format
+msgid "Removing from %s:"
+msgstr ""
+
+#: usr/bin/add-apt-repository:57
+msgid "Repository already exists."
+msgstr ""
+
+#: usr/bin/add-apt-repository:62
+#, python-format
+msgid "Added to %s:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:30
+msgid "_Reload"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:52
+msgid ""
+"The information about available software is out of date. Reload it to "
+"install software and updates from new or changed sources."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:70
+msgid "Downloading the package information..."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:96
+msgid "Failed to download the package information"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:159
+msgid "Distribution:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:186
+msgid "Download from:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:230
+msgid "Components"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:258
+msgid "Updates"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:286
+msgid "Developer Options"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:302
+msgid "_Source code (deb-src)"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:312
+msgid "_Debug symbols (dbgsym)"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:332
+msgid "Restore _Defaults"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:356
+msgid "Debian Software"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:395
+msgid "_Add..."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:423
+msgid "Other Software"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:448
+msgid "Trusted software providers:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:483
+msgid "_Import Key File..."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:492
+msgid "_Download Key..."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:520
+msgid "Authentication"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:537
+msgid "Fix MergeList Problems"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:551
+msgid ""
+"Delete the downloaded package information. Use this when APT reports "
+"MergeList or hash sum errors."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:563
+msgid "Purge Residual Configuration"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:577
+msgid "Delete the configuration files left behind by removed packages."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:588
+msgid "Remove Duplicate Entries"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:602
+msgid "Remove repositories which are configured more than once."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:613
+msgid "Add Missing Keys"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:627
+msgid "Download the keys of repositories whose signatures can't be verified."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:638
+msgid "Remove Foreign Packages..."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:652
+msgid "Remove installed packages which aren't available from any repository."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:663
+msgid "Downgrade Foreign Packages..."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:677
+msgid ""
+"Bring packages from other sources back to the version provided by Debian."
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:695
+msgid "Maintenance"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:713
+#: usr/lib/menta-sources/menta-sources.ui:892
+msgid "_Close"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:729
+msgid "Choose a Download Server"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:756
+msgid "C_hoose Server"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:773
+msgid ""
+"Servers are tested for speed and freshness. Select the server to download "
+"Debian software from:"
+msgstr ""
+
+#: usr/lib/menta-sources/menta-sources.ui:832
+msgid "Looking for foreign packages..."
+msgstr ""
+
+#: usr/share/applications/menta-sources.desktop:87
+msgid "Configure the sources for installable software and updates"
+msgstr ""

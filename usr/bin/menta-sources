@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+import os
+import subprocess
+import sys
+
+if os.getuid() != 0:
+    exit(subprocess.run(["pkexec", "/usr/bin/menta-sources"] + sys.argv[1:]).returncode)
+else:
+    exit(subprocess.run(["/usr/lib/menta-sources/menta_sources.py"] + sys.argv[1:]).returncode)

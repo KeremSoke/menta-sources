@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo rm -rf /usr/lib/linuxmint/mintSources
+sudo rm -rf /usr/lib/menta-sources
 sudo cp -R usr /
-sudo mintsources
+sudo menta-sources

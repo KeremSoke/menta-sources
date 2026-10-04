@@ -1,10 +1,15 @@
 #!/usr/bin/python3
 
-import os, sys
 import gettext
+import os
+import sys
 from optparse import OptionParser
 
-gettext.install("mintsources", "/usr/share/linuxmint/locale")
+sys.path.insert(0, "/usr/lib/menta-sources")
+import apt_sources
+import debian_repos
+
+gettext.install("menta-sources", "/usr/share/locale")
 
 usage = "usage: %prog [options] repository"
 parser = OptionParser(usage=usage)
@@ -23,16 +28,35 @@ if len(args) == 0:
     print(_("Error: need a repository as argument"))
     sys.exit(1)
 
-# Call mintSources script with exec instead of system so that the exit status
-# is returned to the caller
-mintsources = "/usr/lib/linuxmint/mintSources/mintSources.py"
+line = " ".join(args).strip()
 
-yes_arg="-?"
-if options.forceYes:
-    yes_arg="-y"
+if line.startswith("ppa:") or "launchpad" in line:
+    print(_("PPAs are built for Ubuntu and are not supported on Debian."))
+    sys.exit(1)
 
-remove_arg="-?"
+files = apt_sources.load_files()
+codename = debian_repos.detect_codename(apt_sources.all_entries(files))
+line = apt_sources.expand_http_line(line, codename)
+
+if apt_sources.repo_malformed(line):
+    print(_("Malformed input, repository not added."))
+    sys.exit(1)
+
 if options.remove:
-    remove_arg="-r"
-
-os.execl(mintsources, mintsources, "add-apt-repository", yes_arg, remove_arg, args[0])
+    matches = [entry for entry in apt_sources.find_entries(line, files)
+               if entry.file.path != debian_repos.OFFICIAL_FILE]
+    if not matches:
+        print(_("Repository not found."))
+        sys.exit(1)
+    for entry in matches:
+        print(_("Removing from %s:") % entry.file.path, entry.text())
+        entry.file.remove(entry)
+        entry.file.save()
+elif apt_sources.repo_exists(line, apt_sources.all_entries(files)):
+    # from a result-oriented view it's not a failure
+    print(_("Repository already exists."))
+else:
+    source_file = apt_sources.SourceFile(apt_sources.ADDITIONAL_REPOSITORIES).load()
+    source_file.add_line(line)
+    source_file.save()
+    print(_("Added to %s:") % source_file.path, line)

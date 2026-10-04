@@ -3,3 +3,8 @@
 %:
 	dh ${@}
 
+# The tests need the source tree layout, run them before installing
+override_dh_auto_test:
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
+	PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -t .
+endif
