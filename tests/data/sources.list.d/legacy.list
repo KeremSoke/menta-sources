@@ -1,0 +1,3 @@
+# Legacy one-line entries
+deb [signed-by=/usr/share/keyrings/legacy.gpg] https://legacy.example.com trixie main
+deb [arch=amd64 signed-by=/usr/share/keyrings/legacy-dev.gpg] https://legacy-dev.example.com/ trixie main

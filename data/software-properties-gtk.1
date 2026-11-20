@@ -1,0 +1,46 @@
+.TH MENTA\-SOURCES 1 "October 2026" "menta-sources" "User Commands"
+.SH NAME
+menta\-sources, software\-properties\-gtk \- configure the software sources of Debian
+.SH SYNOPSIS
+.B menta\-sources
+.RB [ \-n ]
+.br
+.B software\-properties\-gtk
+.RB [ \-n ]
+.SH DESCRIPTION
+.B menta\-sources
+(Software Sources) configures where APT downloads software from.
+It asks for administrator privileges with
+.BR pkexec (1).
+.PP
+The official Debian repositories are written to
+.I /etc/apt/sources.list.d/debian.sources
+in deb822 format. Their mirror, components (main, contrib, non\-free,
+non\-free\-firmware), update suites (security, updates, backports,
+proposed\-updates, experimental), source code and debug symbol repositories
+can be chosen in the "Debian Software" tab.
+.PP
+Official entries found in
+.I /etc/apt/sources.list
+or other one\-line files are moved to
+.IR debian.sources ,
+after saving a copy of the original files in
+.IR /var/backups/menta\-sources/ .
+.PP
+Third party repositories and their keys are managed in the "Other Software"
+and "Authentication" tabs. PPAs are not supported.
+.SH OPTIONS
+.TP
+.BR \-n ", " \-\-no\-update
+Don't offer to reload the package information after a change; exit with
+status 1 if the sources were modified instead. Used by package managers such as
+.BR synaptic (8).
+.SH FILES
+.TP
+.I /usr/share/menta\-sources/<codename>/menta\-sources.conf
+Description of each supported Debian release: default mirror, available
+components and suites.
+.SH SEE ALSO
+.BR sources.list (5),
+.BR add\-apt\-repository (1),
+.BR apt (8)

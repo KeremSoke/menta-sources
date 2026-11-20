@@ -1,0 +1,7 @@
+build/
+obj-*/
+debian/.debhelper
+debian/files
+debian/*substvars*
+debian/*debhelper*
+debian/menta-sources

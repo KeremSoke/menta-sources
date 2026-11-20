@@ -1,0 +1,13 @@
+executable('menta-sources',
+  'application.vala',
+  'countries.vala',
+  'foreign.vala',
+  'keys.vala',
+  'main.vala',
+  'mirror-dialog.vala',
+  'privileged.vala',
+  'source.vala',
+  resources,
+  dependencies: [core_dep, gtk, soup],
+  install: true,
+)

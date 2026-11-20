@@ -1,0 +1,11 @@
+data/menta-sources.desktop
+data/ui/menta-sources.ui
+src/app/application.vala
+src/app/countries.vala
+src/app/foreign.vala
+src/app/keys.vala
+src/app/main.vala
+src/app/mirror-dialog.vala
+src/app/privileged.vala
+src/app/source.vala
+src/cli/add-apt-repository.vala

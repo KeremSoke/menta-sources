@@ -1,0 +1,48 @@
+Source: menta-sources
+Section: admin
+Priority: optional
+Maintainer: Kerem Söke <keremsoke@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               gettext,
+               libgee-0.8-dev,
+               libglib2.0-dev (>= 2.74),
+               libgtk-3-dev (>= 3.24),
+               libjson-glib-dev,
+               libsoup-3.0-dev,
+               meson (>= 0.62),
+               valac,
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: menta-sources
+Architecture: any
+Depends: apt,
+         debian-archive-keyring,
+         dpkg,
+         gnupg,
+         iso-codes,
+         pkexec | policykit-1,
+         tzdata,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Conflicts: software-properties-common,
+           software-properties-gtk,
+Replaces: software-properties-common,
+          software-properties-gtk,
+Provides: software-properties-gtk,
+Description: Software Sources configuration tool for Debian
+ Configure the sources for installable software and updates on Debian
+ and Debian Menta:
+  * choose an official Debian mirror, the archive components (main,
+    contrib, non-free, non-free-firmware) and the update suites
+    (security, updates, backports, proposed-updates)
+  * enable source code and debug symbol repositories
+  * manage third party repositories and their authentication keys
+  * fix common APT problems and find foreign packages
+ .
+ The official repositories are kept in deb822 format in
+ /etc/apt/sources.list.d/debian.sources. Mirrors come from the Debian
+ mirror masterlist, the same list the Debian installer offers.
+ .
+ The interface runs as the desktop user, on X11 and Wayland. Changes
+ to the system go through a small helper started with pkexec.

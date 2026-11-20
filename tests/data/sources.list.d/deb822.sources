@@ -1,0 +1,7 @@
+Types: deb
+URIs: https://deb822.example.com
+Enabled: yes
+Suites: stable
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/deb822.gpg

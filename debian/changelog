@@ -1,0 +1,17 @@
+menta-sources (1.0.0) trixie; urgency=medium
+
+  * Initial release for Debian Menta, forked from mintsources 2.4.4.
+  * Written in Vala with GTK 3, for MATE on X11 and Wayland.
+  * The interface runs as the desktop user; a pkexec helper applies
+    the changes to the system.
+  * Offer the official Debian mirrors from the Debian mirror masterlist,
+    as the Debian installer does, refreshed from mirror-master.debian.org.
+  * Find nearby mirrors from the system time zone instead of a GeoIP service.
+  * Manage the official Debian repositories in deb822 format
+    (/etc/apt/sources.list.d/debian.sources): mirror, components, suites,
+    source code and debug symbols. Support bookworm, trixie, forky and sid.
+  * Move official entries found in sources.list into debian.sources, with a
+    backup in /var/backups/menta-sources.
+  * Remove PPA support, Linux Mint repositories and Ubuntu bases.
+
+ -- Kerem Söke <keremsoke@gmail.com>  Fri, 20 Nov 2026 17:30:00 -0800

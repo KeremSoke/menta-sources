@@ -1,0 +1,2750 @@
+Site: cdimage.debian.org
+Country: SE Sweden
+Type: Origin
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+
+Site: security.debian.org
+Type: GeoDNS
+Sponsor: Fastly https://www.fastly.com/
+
+Site: deb.debian.org
+Type: GeoDNS
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Ports-architecture: alpha hppa hurd-amd64 hurd-i386 m68k powerpc ppc64 sh4 sparc64 x32
+Ports-http: /debian-ports/
+Sponsor: Fastly https://www.fastly.com/
+Sponsor: Amazon Cloudfront https://aws.amazon.com/cloudfront/
+
+Site: debian-archive.trafficmanager.net
+Country: US United States
+Type: GeoDNS
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Sponsor: Microsoft http://azure.microsoft.com/
+Comment: Geolocated mirror for Debian images inside Microsoft Azure
+
+Site: free.hands.com
+Country: GB United Kingdom
+Location: London
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Hands.com Ltd http://www.hands.com/
+Sponsor: RapidSwitch Ltd http://www.rapidswitch.com/
+Comment: offers ssh triggers for downstream mirrors, contact maintainer for setup - see https://www.debian.org/mirror/push_mirroring
+
+Site: ftp.debian.cz
+Country: CZ Czech Republic
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: CESNET http://www.cesnet.cz/
+
+Site: debian.inf.tu-dresden.de
+Country: DE Germany
+Location: Dresden
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Ports-architecture: alpha hppa hurd-amd64 hurd-i386 m68k powerpc ppc64 sh4 sparc64 x32
+Ports-http: /debian-ports/
+Ports-rsync: debian-ports/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Technical University of Dresden, Dept. of Computer Science http://www.inf.tu-dresden.de/
+Comment: offers ssh triggers for downstream mirrors, contact maintainer for setup - see https://www.debian.org/mirror/push_mirroring
+
+Site: ftp.task.gda.pl
+Country: PL Poland
+Location: Gdańsk
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: ftp/site/debian/
+CDImage-rsync: debian-iso/
+Sponsor: Technical University of Gdańsk http://www.task.gda.pl/
+
+Site: debian.uevora.pt
+Country: PT Portugal
+Location: Évora
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Évora University Computing Services http://www.sc.uevora.pt/
+
+Site: debian.proxad.net
+Country: FR France
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Proxad http://www.proxad.net/
+Sponsor: free.fr http://www.free.fr/
+
+Site: ftp.acc.umu.se
+Country: SE Sweden
+Location: Umeå
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Academic Computer Club, Umeå University http://www.acc.umu.se/
+Sponsor: South Pole AB http://www.southpole.se/
+
+Site: www.nic.funet.fi
+Country: FI Finland
+Location: Espoo
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: ftp/pub/mirrors/ftp.debian.org/debian/
+Sponsor: Finnish Academic and Research Network FUNET http://www.funet.fi/
+
+Site: debian.csail.mit.edu
+Country: US United States
+Location: Cambridge, Massachusetts
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: MIT Computer Science and Artificial Intelligence Laboratory http://www.csail.mit.edu/
+
+Site: debian.c3sl.ufpr.br
+Country: BR Brazil
+Location: Curitiba, Paraná
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x sparc
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Center for Scientific Computing and Free Software (C3SL) http://www.c3sl.ufpr.br/
+Sponsor: Universidade Federal do Paraná http://www.ufpr.br/
+
+Site: debian.snt.utwente.nl
+Country: NL Netherlands
+Location: Enschede
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Studenten Net Twente http://www.snt.utwente.nl/
+Sponsor: University of Twente http://www.utwente.nl/
+Comment: offers ssh triggers for downstream mirrors, contact maintainer for setup - see https://www.debian.org/mirror/push_mirroring
+
+Site: ukdebian.mirror.anlx.net
+Country: GB United Kingdom
+Location: London
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Associated Networks Ltd http://www.anlx.net/
+
+Site: mirrors.lug.mtu.edu
+Country: US United States
+Location: Houghton, Michigan
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+
+Site: ftp.kaist.ac.kr
+Country: KR Korea, Republic of
+Location: Daejeon
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Ports-architecture: alpha hppa hurd-amd64 hurd-i386 m68k powerpc ppc64 sh4 sparc64 x32
+Ports-http: /debian-ports/
+Ports-rsync: debian-ports/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+CDImage-http: /debian-cd/
+Sponsor: Korea Advanced Institute of Science and Technology http://www.kaist.ac.kr/
+Sponsor: SPARCS http://sparcs.kaist.ac.kr/
+
+Site: debian.mirror.rafal.ca
+Country: CA Canada
+Location: Ontario
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Rafal Rzeczkowski http://www.rafal.ca/
+Sponsor: Mountain Cablevision http://www.mountaincable.net/
+Sponsor: Tetraplex Limited http://www.tetraplex.com/
+
+Site: debian.ethz.ch
+Country: CH Switzerland
+Location: Zurich, Hoenggerberg
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: ETHZ, Department of Physics http://www.phys.ethz.ch/
+Comment: offers ssh triggers for downstream mirrors, contact maintainer for setup - see https://www.debian.org/mirror/push_mirroring
+
+Site: ftp.debian.sk
+Country: SK Slovakia
+Location: Bratislava, Slovakia
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Slovanet a.s. http://www.slovanet.net/
+
+Site: mirror.linux.org.au
+Country: AU Australia
+Location: Canberra
+Archive-architecture: amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Linux Australia http://www.linux.org.au/
+
+Site: ftp.halifax.rwth-aachen.de
+Country: DE Germany
+Location: Aachen, Germany
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: /debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: RWTH Aachen University http://www.rwth-aachen.de/
+
+Site: mirror.mephi.ru
+Country: RU Russian Federation
+Location: Russian Federation, Moscow
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: National Research Nuclear University "MEPhI" http://mephi.ru/
+
+Site: ftp.ec-m.fr
+Country: FR France
+Location: Marseille
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Ecole Centrale Marseille https://cri.centrale-marseille.fr/
+
+Site: mirror.kku.ac.th
+Country: TH Thailand
+Location: Khon Kaen
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Computer Center, Khon Kaen University http://www.computer.kku.ac.th/
+
+Site: deb-mir1.naitways.net
+Country: FR France
+Location: Paris 19e
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Naitways http://www.naitways.com
+
+Site: debian.cc.lehigh.edu
+Country: US United States
+Location: Bethlehem, Pennsylvania
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Lehigh University http://www.lehigh.edu/
+
+Site: debian.mirror.vu.lt
+Country: LT Lithuania
+Location: Lithuania, Vilnius (Vilnius University)
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Vilnius University http://www.vu.lt/
+
+Site: mirror.eu.oneandone.net
+Country: DE Germany
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /linux/distributions/debian/debian-archive/
+Old-rsync: debian-archive/
+Sponsor: 1&1 Internet AG http://www.1und1.de/
+
+Site: mirror.us.oneandone.net
+Country: US United States
+Location: Lenexa, KS
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: 1&1 Internet http://1and1.com
+
+Site: mirror.it.ubc.ca
+Country: CA Canada
+Location: Vancouver
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: The University of British Columbia http://www.ubc.ca/
+
+Site: mirrors.ustc.edu.cn
+Country: CN China
+Location: Hefei
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-rsync: debian-cd/
+Sponsor: USTC Network Information Center http://ustcnet.ustc.edu.cn/
+Sponsor: University of Science and Technology of China http://www.ustc.edu.cn/
+
+Site: mirror.nl.leaseweb.net
+Country: NL Netherlands
+Location: EvoSwitch DC, Haarlem, The Netherlands
+Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel powerpc ppc64el s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: LeaseWeb B.V. http://www.leaseweb.com/
+
+Site: mirror.de.leaseweb.net
+Country: DE Germany
+Location: Databurg, Franfurt, Germany
+Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel powerpc ppc64el s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: LeaseWeb B.V. http://www.leaseweb.com/
+
+Site: debian.volia.net
+Country: UA Ukraine
+Location: Kiev
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Volia Broadband http://www.volia.com/
+
+Site: ftp.agh.edu.pl
+Country: PL Poland
+Location: AGH Kraków
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 riscv64
+Archive-http: /debian/
+Sponsor: AGH University of Science and Technology http://www.agh.edu.pl
+
+Site: mirror.sinavps.ch
+Country: CH Switzerland
+Location: Zug, Switzerland
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: SinaVPS http://sinavps.ch
+
+Site: debian.nautile.nc
+Country: NC New Caledonia
+Location: Noumea, New Caledonia
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Nautile (ISP) http://www.nautile.nc/
+
+Site: debian.lagis.at
+Country: AT Austria
+Location: Linz
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
+Archive-http: /debian/
+Sponsor: lagis Internet Serviceprovider GmbH http://www.lagis.at/
+
+Site: mirror.as35701.net
+Country: BE Belgium
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Bart Champagne http://www.as35701.net/
+
+Site: debian.lth.se
+Country: SE Sweden
+Archive-architecture: amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x
+Archive-http: /debian/
+
+Site: debian.cs.nycu.edu.tw
+Country: TW Taiwan
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: IT Center, Department of Computer Science, National Yang Ming Chiao Tung University https://it.cs.nycu.edu.tw/
+
+Site: ftp.byfly.by
+Country: BY Belarus
+Location: Minsk
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: RUE Beltelecom, MGTS http://www.beltelecom.by/
+
+Site: miroir.univ-lorraine.fr
+Country: FR France
+Location: Nancy
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+CDImage-architecture: amd64 i386 multi-arch
+CDImage-http: /debian-cd/
+Sponsor: Université de Lorraine http://www.univ-lorraine.fr/
+
+Site: ftp.linux.org.tr
+Country: TR Turkey
+Location: Ankara
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: LKD http://www.linux.org.tr/
+Sponsor: Ulakbim http://www.ulak.net.tr/
+
+Site: mirror.positive-internet.com
+Country: GB United Kingdom
+Location: London
+Archive-architecture: amd64 armhf i386 s390x
+Archive-http: /debian/
+Sponsor: The Positive Internet Company http://www.positive-internet.com/
+
+Site: debian.ludost.net
+Country: BG Bulgaria
+Location: Sofia
+Archive-architecture: amd64
+Archive-http: /debian/
+Sponsor: Lirex Net http://www.lirex.net/
+Sponsor: Ludost.net http://www.ludost.net/
+
+Site: ftp.uni-kl.de
+Country: DE Germany
+Location: Kaiserslautern
+Archive-architecture: amd64 arm64 i386
+Archive-http: /debian/
+Sponsor: University of Kaiserslautern http://www.uni-kl.de/
+
+Site: debian.tu-bs.de
+Country: DE Germany
+Location: Braunschweig
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Technische Universität Braunschweig https://www.tu-bs.de/
+
+Site: ftp.u-picardie.fr
+Country: FR France
+Location: Amiens
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Université de Picardie http://www.u-picardie.fr/
+
+Site: ftp.u-strasbg.fr
+Country: FR France
+Archive-architecture: amd64 i386 loong64 riscv64
+Archive-http: /debian/
+Sponsor: Universite Louis Pasteur, Strasbourg http://www.u-strasbg.fr/
+Sponsor: Transtec http://www.transtec.fr/
+
+Site: mirror.litnet.lt
+Country: LT Lithuania
+Location: http://ftp.litnet.lt
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Lithuanian Academical and Research Network (LitNET) http://www.litnet.lt
+
+Site: ftp.uio.no
+Country: NO Norway
+Location: Oslo
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: USIT, University of Oslo, Norway http://www.usit.uio.no/
+Sponsor: Uninett http://www.uninett.no/
+
+Site: mirrors.dotsrc.org
+Country: DK Denmark
+Location: Aalborg
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: dotsrc.org - Open Source Software Project Hosting http://dotsrc.org
+
+Site: ftp.lanet.kr
+Country: KR Korea, Republic of
+Location: Seoul
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: LANET http://www.lanet.kr
+
+Site: mirror.dkm.cz
+Country: CZ Czech Republic
+Location: Prague, Czech Republic
+Archive-architecture: amd64 arm64
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: UPC Czech Republic s.r.o. https://www.upc.cz/
+
+Site: softlibre.unizar.es
+Country: ES Spain
+Location: Zaragoza
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Universidad de Zaragoza http://unizar.es
+
+Site: debian.redparra.com
+Country: ES Spain
+Location: Espana, Madrid
+Archive-architecture: amd64
+Archive-http: /debian/
+Sponsor: Redparra Networks http://www.redparra.com
+Comment: Server status: http://status.redparra.com
+
+Site: mirror.applebred.net
+Country: TH Thailand
+Archive-architecture: amd64 arm64 armhf i386 loong64 riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Applebred Network http://www.applebred.net
+
+Site: mirrors.bloomu.edu
+Country: US United States
+Location: Bloomsburg, Pennsylvania
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Bloomsburg University of Pennsylvania http://www.bloomu.edu
+
+Site: debian.xtdv.net
+Country: VN Vietnam
+Location: Ho Chi Minh city
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: XTDV Group http://www.xtdv.group
+
+Site: mirror.iway.ch
+Country: CH Switzerland
+Location: Zurich
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: iway AG http://www.iway.ch
+
+Site: mirror.cedia.org.ec
+Country: EC Ecuador
+Location: Cuenca
+Archive-architecture: amd64 armel armhf i386 mipsel s390x
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Consorcio Ecuatoriano para el Desarrollo de Internet Avanzada http://www.cedia.org.ec
+
+Site: debian.anexia.at
+Country: AT Austria
+Location: Vienna
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: ANEXIA Internetdienstleistungs GmbH http://www.anexia.at/
+
+Site: debian.saix.net
+Country: ZA South Africa
+Location: Cape Town
+Archive-architecture: amd64 armel armhf i386 mipsel s390x
+Archive-http: /
+CDImage-http: /debian-cd/
+Sponsor: Telkom SA SOC Ltd http://www.telkom.co.za
+
+Site: debian.lagoon.nc
+Country: NC New Caledonia
+Location: Nouméa
+Archive-architecture: amd64 armel armhf i386 mipsel s390x
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Lagoon http://www.lagoon.nc/
+
+Site: mirror.lchost.net
+Country: GB United Kingdom
+Location: London, UK
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Sponsor: LCHost http://www.lchost.co.uk
+
+Site: debian.mirror.serversaustralia.com.au
+Country: AU Australia
+Location: Australia
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Servers Australia Pty Ltd http://www.serversaustralia.com.au
+
+Site: debian.mirror.lrz.de
+Country: DE Germany
+Location: Garching near Munich, Germany
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Leibniz Supercomputing Centre http://www.lrz.de
+Comment: [2015] 20 Gbps bandwidth.
+
+Site: debian.mirror.globo.tech
+Country: CA Canada
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: GloboTech Communications http://www.globo.tech/
+
+Site: debian.mirror.uk.sargasso.net
+Country: GB United Kingdom
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Sargasso Networks http://www.sargasso.co.uk/from/debian
+
+Site: mirror.insacom.cl
+Country: CL Chile
+Location: Valparaíso
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Insacom y Cia Ltda. https://www.insacom.cl/
+
+Site: debian.mirror.constant.com
+Country: US United States
+Location: Piscataway, New Jersey
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Constant.com http://www.constant.com
+
+Site: kartolo.sby.datautama.net.id
+Country: ID Indonesia
+Location: Surabaya, East Java, Indonesia
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: DATAUTAMA-NET-ID http://datautama.net.id/
+
+Site: debian.xfree.com.ar
+Country: AR Argentina
+Location: Argentina
+CDImage-http: /debian-cd/
+Sponsor: John Knoll http://www.xfree.com.ar
+
+Site: debian.grena.ge
+Country: GE Georgia
+Location: Tbilisi
+Archive-architecture: amd64 arm64 loong64 riscv64
+Archive-http: /debian/
+CDImage-http: /debian-cd/
+Sponsor: Georgian Research and Educational Networking Association http://grena.ge
+
+Site: debian.mirror.ac.ke
+Country: KE Kenya
+Location: JKML Bldg, University of Nairobi
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: KENET - (Kenya Education Network) http://www.kenet.or.ke
+
+Site: mirror.cogentco.com
+Country: US United States
+Location: Herndon, VA
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Cogent Communications http://www.cogentco.com/
+
+Site: debian.mirror.iphh.net
+Country: DE Germany
+Location: Hamburg
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: IPHH Internet Port Hamburg GmbH https://www.iphh.net
+
+Site: merlin.fit.vutbr.cz
+Country: CZ Czech Republic
+Location: Brno
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: FIT BUT http://www.fit.vutbr.cz
+
+Site: ftp.crifo.org
+Country: FR France
+Location: Paris
+CDImage-http: /debian-cd/
+
+Site: mirror.us.leaseweb.net
+Country: US United States
+Location: Manassas, Virginia
+Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel powerpc ppc64el s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: LeaseWeb B.V. http://www.leaseweb.com/
+
+Site: mirrors.accretive-networks.net
+Country: US United States
+Location: Seattle, WA
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+Sponsor: Accretive Networks http://accretivetg.com/
+
+Site: mirror.datacenter.by
+Country: BY Belarus
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+
+Site: mirror.united-gameserver.de
+Country: DE Germany
+Location: Coburg, Germany
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: United Gameserver https://united-gameserver.de
+
+Site: debian.ipacct.com
+Country: BG Bulgaria
+Location: Sofia, Bulgaria
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.ps.kz
+Country: KZ Kazakhstan
+Location: Almaty
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: PS Internet Company LLC https://www.ps.kz
+
+Site: debian.superhosting.cz
+Country: CZ Czech Republic
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
+Archive-http: /debian/
+CDImage-http: /debian-cd/
+
+Site: ftp.cvut.cz
+Country: CZ Czechia
+Location: Prague
+Archive-architecture: amd64 arm64 armhf i386 loong64 mips64el ppc64el riscv64
+Archive-http: /debian/
+Sponsor: Czech Technical University in Prague, Faculty of Mechanical Engineering https://www.fs.cvut.cz/en/home/
+
+Site: mirror.mirohost.net
+Country: UA Ukraine
+Location: Kyiv
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: mirohost.net https://mirohost.net
+
+Site: mirror.steadfast.net
+Country: US United States
+Location: Chicago, IL
+Archive-architecture: amd64 armhf i386 s390x
+Archive-http: /debian/
+CDImage-http: /debian-cd/
+Sponsor: Steadfast Networks http://steadfast.net/
+
+Site: mirror.csclub.uwaterloo.ca
+Country: CA Canada
+Location: Waterloo, Ontario
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: University of Waterloo Computer Science Club http://csclub.uwaterloo.ca/
+
+Site: debian.grn.cat
+Country: ES Spain
+Archive-architecture: amd64 arm64 armhf i386 loong64 riscv64
+Archive-http: /debian/
+Sponsor: GRN Serveis Telematics S.L. http://www.grn.cat/
+
+Site: mirror.overthewire.com.au
+Country: AU Australia
+Archive-architecture: amd64 arm64 armel i386
+Archive-http: /debian/
+CDImage-http: /debian-cd/
+Sponsor: Over The Wire http://www.overthewire.com.au
+
+Site: ftp.univ-pau.fr
+Country: FR France
+Location: Pau
+Archive-architecture: amd64 arm64 armhf i386 loong64 mips64el ppc64el riscv64
+Archive-http: /linux/mirrors/debian/
+Sponsor: Universite de Pau et des Pays de l'Adour http://www.univ-pau.fr/
+
+Site: debian.dynamica.it
+Country: IT Italy
+Location: Milan
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el ppc64el riscv64 s390x
+Archive-http: /debian/
+Old-http: /debian-archive/
+Sponsor: Dynamica Software Factory http://www.dynamica.it/
+
+Site: debian.mnet.bg
+Country: BG Bulgaria
+Location: Varna
+Archive-architecture: amd64 arm64 i386 mips64el
+Archive-http: /debian/
+Sponsor: MSAT AD http://www.mnet.bg/
+
+Site: ftp.ncnu.edu.tw
+Country: TW Taiwan
+Location: Puli, Nantou
+Archive-architecture: amd64 i386
+CDImage-http: /debian-cd/
+Sponsor: National Chi Nan University http://www.ncnu.edu.tw/
+
+Site: mirror.units.it
+Country: IT Italy
+Location: Trieste
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: University of Trieste http://www.units.it/
+
+Site: debian-iso.mirror.anlx.net
+Country: GB United Kingdom
+Location: Telehouse East, London
+CDImage-architecture: amd64 i386
+CDImage-http: /
+Sponsor: Associated Networks Ltd http://www.anlx.net/
+
+Site: mirrors.up.pt
+Country: PT Portugal
+Location: Porto
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: FEUP - University of Porto http://www.fe.up.pt
+
+Site: ftp.udc.es
+Country: ES Spain
+Location: A Coruña, Spain
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Sponsor: Free Software Office, University of A Coruña http://softwarelibre.udc.es
+
+Site: debian.interhost.co.il
+Country: IL Israel
+Location: Tel-Aviv
+Archive-architecture: amd64 arm64 i386 loong64 mips64el riscv64
+Archive-http: /debian/
+CDImage-architecture: amd64 i386
+CDImage-http: /debian-cd/
+Sponsor: Interhost Networks https://interhost.co.il
+
+Site: debian.charite.de
+Country: DE Germany
+Location: Berlin
+Archive-architecture: amd64 i386 loong64 riscv64
+Archive-http: /debian/
+Sponsor: Charite http://www.charite.de/
+
+Site: debian.mirror.web4u.cz
+Country: CZ Czech Republic
+Location: Prague
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
+Archive-http: /
+Sponsor: Web4U http://www.web4u.cz/
+
+Site: debian-cd.mirror.web4u.cz
+Country: CZ Czech Republic
+Location: Prague
+CDImage-architecture: amd64 i386
+CDImage-http: /
+Sponsor: Web4U http://www.web4u.cz/
+
+Site: debian.telecoms.bg
+Country: BG Bulgaria
+Location: Varna, Bulgaria
+Archive-architecture: amd64 arm64 armhf
+Archive-http: /debian/
+
+Site: debian.netcologne.de
+Country: DE Germany
+Location: Koeln, Germany
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+
+Site: debian.pop-sc.rnp.br
+Country: BR Brazil
+Location: Florianópolis
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+CDImage-architecture: amd64 i386
+CDImage-http: /mirror/debian-cd/
+Sponsor: PoP-SC/RNP http://www.pop-sc.rnp.br/
+Comment: [2016] 10Gbps with RNP academic backbone, 2Gbps with Commodity ISP, 20Gbps with SC.IX.BR peering
+
+Site: mirrors.ircam.fr
+Country: FR France
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /pub/debian/
+
+Site: ftp.hosteurope.de
+Country: DE Germany
+Location: Cologne
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /mirror/ftp.debian.org/debian/
+Archive-rsync: debian/
+Old-http: /mirror/archive.debian.org/
+CDImage-http: /mirror/ftp.debian.org/debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Host Europe GmbH http://www.hosteurope.de/
+
+Site: ftp.jaist.ac.jp
+Country: JP Japan
+Location: Ishikawa
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Japan Advanced Institute of Science and Technology http://www.jaist.ac.jp/
+
+Site: ftp.gwdg.de
+Country: DE Germany
+Location: Göttingen
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: pub/linux/debian/debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: pub/linux/debian/debian-cd/
+Sponsor: GWDG http://www.gwdg.de/
+
+Site: ftp.riken.jp
+Country: JP Japan
+Location: N35.779633, E139.615734
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /Linux/debian/debian/
+Archive-rsync: debian/
+CDImage-http: /Linux/debian/debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: RIKEN Accelerator Research Facility http://www.riken.go.jp/
+
+Site: rsync.uni-bayreuth.de
+Country: DE Germany
+Location: Bayreuth
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-rsync: debian/
+CDImage-rsync: debian-cd/
+Sponsor: University of Bayreuth http://www.uni-bayreuth.de/
+Comment: See ftp.uni-bayreuth.de
+
+Site: ftp.uni-sofia.bg
+Country: BG Bulgaria
+Location: Sofia, 42.6740/23.3305
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: /debian/
+CDImage-rsync: debian-cd/
+Sponsor: University of Sofia http://www.uni-sofia.bg/
+
+Site: opensource.nchc.org.tw
+Country: TW Taiwan
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: National Center for High-Performance Computing https://www.nchc.org.tw/
+
+Site: ftp.cica.es
+Country: ES Spain
+Location: Sevilla
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Centro Informatico Cientifico de Andaluca (CICA) http://www.cica.es/
+
+Site: ftp.caliu.cat
+Country: ES Spain
+Location: Barcelona
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+CDImage-http: /debian-cd/
+Sponsor: CALIU - CAtalan GNU/LInux Users http://caliu.cat/
+Sponsor: Universitat Politècnica de Catalunya http://www.upc.edu/
+
+Site: mirror.ox.ac.uk
+Country: GB United Kingdom
+Location: Oxford
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+Archive-http: /debian/
+Sponsor: Oxford University Computing Services http://www.oucs.ox.ac.uk/
+
+Site: ftp.bme.hu
+Country: HU Hungary
+Location: Budapest, Hungary
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+Sponsor: BME https://www.bme.hu
+
+Site: debian.mirror.garr.it
+Country: IT Italy
+Location: Milano
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: GARR/CILEA http://mirror.garr.it/
+
+Site: ftp.psn.ru
+Country: RU Russian Federation
+Location: Pushchino, Moscow Region
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Pushchino Scientific Center http://www.psn.ru/
+
+Site: ftp.tu-chemnitz.de
+Country: DE Germany
+Location: Chemnitz
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Technische Universität Chemnitz http://www.tu-chemnitz.de/
+
+Site: debian.koyanet.lv
+Country: LV Latvia
+Location: Riga
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Riga Technical University http://www.rtu.lv/
+
+Site: debian.csie.ntu.edu.tw
+Country: TW Taiwan
+Location: Taipei, Taiwan
+Archive-architecture: amd64 arm64 armhf i386 riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Department of Computer Science and Information Engineering, National Taiwan University https://www.csie.ntu.edu.tw/
+
+Site: ftp.tugraz.at
+Country: AT Austria
+Location: Graz
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /mirror/debian/
+Sponsor: ZID der Technische Universität Graz http://www.zid.tugraz.at/
+
+Site: ftp.zcu.cz
+Country: CZ Czech Republic
+Location: Plzen
+Archive-architecture: amd64 arm64 armhf i386 loong64 mips64el riscv64
+Archive-http: /debian/
+Sponsor: University of West Bohemia http://ftp.zcu.cz/
+
+Site: debian.balt.net
+Country: LT Lithuania
+Location: Vilnius
+Archive-architecture: amd64
+Archive-http: /debian/
+Sponsor: JSC Baltnetos Komunikacijos http://www.balt.net/
+
+Site: debian.iskon.hr
+Country: HR Croatia
+Location: Zagreb
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Iskon Internet d.d. http://www.iskon.hr/
+
+Site: ftp.ticklers.org
+Country: GB United Kingdom
+Location: London
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /debian-archive/
+Old-rsync: archive.debian.org/
+CDImage-http: /debian-cd/
+
+Site: archive.kernel.org
+Country: US United States
+Location: Santa Clara, California
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+Sponsor: Linux Kernel Archives https://www.kernel.org/
+
+Site: ftp.stw-bonn.de
+Country: DE Germany
+Location: Bonn
+Archive-architecture: amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x
+Archive-http: /debian/
+Sponsor: Studentenwerk Bonn http://www.stw-bonn.de
+
+Site: ftp-stud.hs-esslingen.de
+Country: DE Germany
+Location: Esslingen, Germany
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Computing Center, University of Applied Sciences Esslingen http://www.hs-esslingen.de/
+
+Site: ftp.sh.cvut.cz
+Country: CZ Czech Republic
+Location: Prague
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Silicon Hill, Czech Technical University Prague http://www.sh.cvut.cz/
+Comment: run within a students club Silicon Hill (http://www.siliconhill.cz)
+
+Site: ftp.lip6.fr
+Country: FR France
+Location: Jussieu
+Archive-architecture: amd64 armel armhf i386 s390x
+Archive-http: /pub/linux/distributions/debian/
+Sponsor: lip6 http://www.lip6.fr/
+
+Site: debian.uchicago.edu
+Country: US United States
+Location: Chicago, Illinois
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: University of Chicago http://www.uchicago.edu/
+
+Site: debian.otenet.gr
+Country: GR Greece
+Location: Athens
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Cosmote https://cosmote.gr/
+
+Site: ftp.eq.uc.pt
+Country: PT Portugal
+Location: Coimbra
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /software/Linux/debian/
+Sponsor: Faculty of Science and Technology, Coimbra University http://www.eq.uc.pt/
+
+Site: ftp.fau.de
+Country: DE Germany
+Location: Erlangen
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Friedrich-Alexander-Universität http://www.fau.de
+
+Site: mirrorservice.org
+Country: GB United Kingdom
+Location: Canterbury
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /sites/ftp.debian.org/debian/
+Archive-rsync: ftp.debian.org/debian/
+CDImage-http: /sites/cdimage.debian.org/debian-cd/
+CDImage-rsync: cdimage.debian.org/debian-cd/
+Sponsor: University of Kent School of Computing http://www.mirrorservice.org/
+
+Site: debian.polytech-lille.fr
+Country: FR France
+Location: Villeneuve d'ascq, université de Lille1
+Archive-architecture: amd64 arm64 i386 loong64 mips64el ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Polytech'Lille http://www.polytech-lille.fr/
+
+Site: mirror.aarnet.edu.au
+Country: AU Australia
+Location: Canberra
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Australian Academic and Research Network http://www.aarnet.edu.au/
+
+Site: ftp.uni-stuttgart.de
+Country: DE Germany
+Location: Stuttgart, Germany
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Uni Stuttgart http://www.uni-stuttgart.de/
+
+Site: debian.as3741.net
+Country: ZA South Africa
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: /debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: /debian-cd/
+
+Site: pkg.adfinis-on-exoscale.ch
+Country: CH Switzerland
+Location: Geneva, Switzerland
+Archive-architecture: amd64
+Archive-http: /debian/
+Sponsor: Adfinis & Exoscale https://adfinis.com and https://exoscale.com
+
+Site: ftp.uni-mainz.de
+Country: DE Germany
+Location: Mainz
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Johannes Gutenberg University Mainz, ZDV http://www.zdv.uni-mainz.de
+
+Site: debian.redimadrid.es
+Country: ES Spain
+Location: Madrid
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: REDIMadrid http://www.redimadrid.es
+
+Site: mirror.ufscar.br
+Country: BR Brazil
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: debian.repo.cure.edu.uy
+Country: UY Uruguay
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel riscv64
+Archive-http: /debian/
+
+Site: pubmirror.plutex.de
+Country: DE Germany
+Location: Bremen
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /debian/
+Sponsor: PLUTEX GmbH https://plutex.de
+
+Site: mirrors.pidginhost.com
+Country: RO Romania
+Location: Bucharest
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Pidgin Host https://www.pidginhost.com
+
+Site: mirror.23m.com
+Country: DE Germany
+Location: Frankfurt am Main
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: 23M https://23m.com
+
+Site: mirror.checkdomain.de
+Country: DE Germany
+Location: near Regnsburg, Bavaria
+Archive-architecture: amd64 arm64 i386 ppc64el
+CDImage-http: /debian-cd/
+Sponsor: Checkdomain GmbH https://www.checkdomain.de
+
+Site: ftp.uni-hannover.de
+Country: DE Germany
+Location: Hannover
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/debian/
+CDImage-http: /debian/debian-cd/
+Sponsor: Uni Hannover http://www.luis.uni-hannover.de
+
+Site: mirror.amaze.com.au
+Country: AU Australia
+Location: Sydney
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Sponsor: Amaze Communication http://www.amaze.com.au/
+
+Site: depot-debian.univ-reunion.fr
+Country: RE Réunion
+Archive-architecture: amd64 arm64 i386
+Archive-http: /debian/
+
+Site: mirrors.glesys.net
+Country: SE Sweden
+Location: Falkenberg
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: GleSYS Internet Services AB http://glesys.se/
+
+Site: mirror.nforce.com
+Country: NL Netherlands
+Location: Amsterdam
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
+Archive-http: /debian/
+Sponsor: NFOrce Entertainment B.V. http://www.nforce.com/
+
+Site: debian.connesi.it
+Country: IT Italy
+Location: Foligno (PG)
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+CDImage-http: /
+Sponsor: Connesi s.p.a. http://www.connesi.it
+
+Site: debian-cd.repulsive.eu
+Country: DE Germany
+Archive-architecture: amd64 i386
+CDImage-http: /
+CDImage-rsync: debian-cd/
+
+Site: mirror.truenetwork.ru
+Country: RU Russian Federation
+Location: Novokuznetsk
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Old-http: /debian-archive/
+Old-rsync: debian-archive/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Truenetwork http://truenetwork.ru
+
+Site: mirror.xtom.com.hk
+Country: HK Hong Kong
+Location: Hong Kong
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: xTom Hong Kong Limited https://xtom.com.hk/
+
+Site: mirror.duocast.net
+Country: NL Netherlands
+Location: Groningen, NL
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+CDImage-http: /debian-cd/
+Sponsor: Duocast BV https://www.duocast.net/
+
+Site: mirrors.coreix.net
+Country: GB United Kingdom
+Location: London
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: mirrors/debian/
+Sponsor: Coreix ltd http://www.coreix.net
+
+Site: ftp.yz.yamagata-u.ac.jp
+Country: JP Japan
+Location: Yamagata
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+CDImage-http: /debian-cd/
+Sponsor: Yamagatra University https://www.yamagata-u.ac.jp/
+Comment: HTTPS Enabled
+
+Site: debian.mirror.su.se
+Country: SE Sweden
+Location: Stockholm
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Stockholm University https://www.su.se
+
+Site: mirror.wtnet.de
+Country: DE Germany
+Location: Norderstedt
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: wilhelm.tel GmbH http://www.wilhelm-tel.de
+
+Site: mirrors.nxthost.com
+Country: RO Romania
+Location: Bucharest
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: nxthost.com https://www.nxthost.com
+
+Site: ftp.antik.sk
+Country: SK Slovakia
+Location: Kosice
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: ANTIK Telecom https://www.antik.sk/
+
+Site: mirrors.nav.ro
+Country: RO Romania
+Location: Bucharest
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: NAV Communications https://www.nav.ro/
+
+Site: ftp.linux.it
+Country: IT Italy
+Location: Milano
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Seeweb https://www.seeweb.it/
+Comment: rsync access is available to other public mirrors
+
+Site: mirror.vpgrp.io
+Country: NL Netherlands
+Location: Amsterdam
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Vente-Privée http://vente-privee.com/
+
+Site: repo.ialab.dsu.edu
+Country: US United States
+Location: Madison, SD
+Archive-architecture: amd64 arm64 armel armhf i386 mipsel ppc64el s390x
+Archive-http: /debian/
+Sponsor: Dakota State University https://dsu.edu
+
+Site: ftp.debianclub.org
+Country: TH Thailand
+Location: Bangkok
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Widhaya Trisarnwadhana https://www.thaitux.info/
+
+Site: mirrors.powernet.com.ru
+Country: RU Russian Federation
+Location: Volzhskiy
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: POWERNET ISP https://www.powernet.com.ru
+
+Site: mirror.siena.edu
+Country: US United States
+Location: Loudonville, NY
+Archive-architecture: amd64 arm64
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.init7.net
+Country: CH Switzerland
+Location: Winterthur
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Init7 (Schweiz) AG https://www.init7.net
+
+Site: mirror.vpsnet.com
+Country: LT Lithuania
+Location: Lithuania Vilnius
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: VPSnet.com https://www.VPSnet.com
+
+Site: debian.mirror.liquidtelecom.com
+Country: KE Kenya
+Location: EADC, Nairobi
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Liquid Telecom https://www.liquidtelecom.com
+
+Site: mirror.hoster.kz
+Country: KZ Kazakhstan
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.ipb.de
+Country: DE Germany
+Location: Berlin
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: IPB Internet Provider in Berlin https://www.ipb.de/
+
+Site: mirror.sitsa.com.ar
+Country: AR Argentina
+Location: Villa María, Córdoba
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+Archive-http: /debian/
+Sponsor: SiTSA Telecomunicaciones http://www.sitsa.com.ar/
+
+Site: debianmirror.una.ac.cr
+Country: CR Costa Rica
+Location: Heredia
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: mirror.docker.ru
+Country: RU Russian Federation
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64
+Archive-http: /debian/
+
+Site: repo.jztkft.hu
+Country: HU Hungary
+Location: Budapest
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirrors.xtom.nl
+Country: NL Netherlands
+Location: Amsterdam
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: xTom https://xtom.com
+
+Site: mirrors.xtom.com
+Country: US United States
+Location: Fremont, CA
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: xTom https://xtom.com
+
+Site: mirrors.netix.net
+Country: BG Bulgaria
+Location: Sofia
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: NetiX https://netix.net/
+
+Site: debian.apt-mirror.de
+Country: FR France
+Location: Gravelines (OVH)
+Archive-architecture: amd64 armhf i386
+Archive-http: /debian/
+
+Site: ftpmirror1.infania.net
+Country: SE Sweden
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Infania Networks https://www.infania.net
+
+Site: mirror.siwoo.org
+Country: KR Korea, Republic of
+Location: Gwangju, Republic of Korea
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+
+Site: repo.ifca.es
+Country: ES Spain
+Location: Santander
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: IFCA - CSIC - UC https://ifca.unican.es/
+
+Site: mirror.dogado.de
+Country: DE Germany
+Location: Leipzig
+Archive-architecture: amd64 arm64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: dogado GmbH https://dogado.de
+
+Site: mirror.lagoon.nc
+Country: NC New Caledonia
+Location: Noumea
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: OFFRATEL/LAGOON https://www.lagoon.nc/
+
+Site: mirror.cov.ukservers.com
+Country: GB United Kingdom
+Location: London
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: UK Dedicated Servers https://www.ukservers.com/
+
+Site: mirror.it4i.cz
+Country: CZ Czech Republic
+Location: Ostrava
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: IT4Innovations National Supercomputing Center https://www.it4i.cz
+
+Site: mirror.bizflycloud.vn
+Country: VN Vietnam
+Location: HaNoi
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: BizflyCloud https://bizflycloud.vn/
+
+Site: mirror1.infomaniak.com
+Country: CH Switzerland
+Location: Geneva
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Infomaniak https://www.infomaniak.com/
+
+Site: mirror2.infomaniak.com
+Country: CH Switzerland
+Location: Geneva
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Infomaniak https://www.infomaniak.com/
+
+Site: mirror.linux.ro
+Country: RO Romania
+Location: Bucharest
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: RCS&RDS https://www.digiromania.ro/
+
+Site: mirror.nju.edu.cn
+Country: CN China
+Location: Nanjing
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: eScience Center, Nanjing University https://sci.nju.edu.cn
+
+Site: repository.su
+Country: RU Russian Federation
+Location: Nizhny Novgorod
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Dmitry Shishkin https://dmitry.sh
+
+Site: mirrors.hostico.ro
+Country: RO Romania
+Location: Bucharest
+Archive-architecture: amd64
+Archive-http: /debian/
+Sponsor: Hostico https://hostico.ro
+
+Site: debian.ccns.ncku.edu.tw
+Country: TW Taiwan
+Location: Tainan, Taiwan
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Internet Technology Laboratory, Department of Electrical Engineering, National Cheng Kung University https://www.itlab.ee.ncku.edu.tw/
+
+Site: mirror.telepoint.bg
+Country: BG Bulgaria
+Location: Telepoint Tier3 Data Center
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Telepoint https://telepoint.bg
+
+Site: mirror.sabay.com.kh
+Country: KH Cambodia
+Location: Phnom Penh
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Sponsor: Sabay https://sabay.com
+
+Site: mirrors.hit.edu.cn
+Country: CN China
+Location: Harbin
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.yuki.net.uk
+Country: KR Korea, Republic of
+Location: YeongCheon-Si
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: uk.mirrors.clouvider.net
+Country: GB United Kingdom
+Location: London
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Clouvider Limited https://clouvider.co.uk
+
+Site: nl.mirrors.clouvider.net
+Country: NL Netherlands
+Location: Amsterdam
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Clouvider Limited https://clouvider.co.uk
+
+Site: nyc.mirrors.clouvider.net
+Country: US United States
+Location: New York
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Clouvider Limited https://clouvider.co.uk
+
+Site: atl.mirrors.clouvider.net
+Country: US United States
+Location: Atlanta
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Clouvider Limited https://clouvider.co.uk
+
+Site: la.mirrors.clouvider.net
+Country: US United States
+Location: Los Angeles
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Clouvider Limited https://clouvider.co.uk
+
+Site: de.mirrors.clouvider.net
+Country: DE Germany
+Location: Frankfurt am Main
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Clouvider Limited https://clouvider.co.uk
+
+Site: mirror.djvg.sg
+Country: SG Singapore
+Location: Singapore
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: mirrors.xtom.de
+Country: DE Germany
+Location: Duesseldorf
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: xTom https://xtom.com/
+
+Site: mirrors.xtom.ee
+Country: EE Estonia
+Location: Tallinn
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: xTom https://xtom.com/
+
+Site: mirror.estone.ca
+Country: CA Canada
+Location: Prince George BC
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+
+Site: mirror.alwyzon.net
+Country: AT Austria
+Location: Vienna
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Sponsor: Alwyzon https://www.alwyzon.com/
+
+Site: debian.obspm.fr
+Country: FR France
+Location: Paris / Meudon
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+CDImage-http: /debian-cd/
+Sponsor: Observatoire de Paris https://www.obspm.fr/
+
+Site: mirror.unair.ac.id
+Country: ID Indonesia
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: debian.mithril.re
+Country: RE Réunion
+Location: Reunion (Indian Ocean)
+Archive-architecture: amd64
+Archive-http: /debian/
+Sponsor: Mithril Informatique https://mithril.re
+
+Site: mirror.uepg.br
+Country: BR Brazil
+Location: Ponta Grossa, Parana
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: tw1.mirror.blendbyte.net
+Country: TW Taiwan
+Location: Taipei
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Blendbyte Inc. https://blendbyte.com
+
+Site: mirror.johnnybegood.fr
+Country: FR France
+Location: Paris
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+
+Site: mirrors.xtom.jp
+Country: JP Japan
+Location: Osaka
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: xTom https://xtom.com/
+
+Site: mirrors.vcea.wsu.edu
+Country: US United States
+Location: Washington State University, Pullman WA
+Archive-architecture: amd64 arm64 i386
+Archive-http: /debian/
+
+Site: ro.mirror.flokinet.net
+Country: RO Romania
+Location: Bucharest
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: FlokiNET https://flokinet.is
+
+Site: is.mirror.flokinet.net
+Country: IS Iceland
+Location: Reykjavík
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: apt.tetaneutral.net
+Country: FR France
+Location: Toulouse
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: TetaNeutral.net https://tetaneutral.net
+Comment: TetaNeutral.net est un fournisseur d'accès à Internet associatif opérant actuellement un réseau radio sur Toulouse et ses environs et un hébergeur. L'association est membre de la Fédération des fournisseurs d’accès à Internet associatifs (FFDN) qui regroupe des projets similaires en France, en Belgique et en Suisse.
+
+Site: mirror.cloudhosting.lv
+Country: LV Latvia
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+Archive-http: /debian/
+
+Site: mirror.informatik.tu-freiberg.de
+Country: DE Germany
+Location: TU Bergakademie Freiberg
+Archive-architecture: amd64 arm64 armhf i386 loong64 mips64el ppc64el riscv64
+Archive-http: /debian/
+
+Site: mirror.sg.gs
+Country: SG Singapore
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: ftp.psnc.pl
+Country: PL Poland
+Location: Poznań
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Poznan Supercomputing and Networking Center https://psnc.pl/
+
+Site: debian.nic.cz
+Country: CZ Czechia
+Archive-architecture: amd64 arm64
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+
+Site: mirror.nyist.edu.cn
+Country: CN China
+Location: Nanyang
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: /debian/
+
+Site: mirror.hnd.cl
+Country: CL Chile
+Location: Santiago, Chile
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Hostednode SpA https://hnd.cl
+
+Site: debian.a1.bg
+Country: BG Bulgaria
+Location: Sofia
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: A1 https://www.a1.bg
+
+Site: mirror.vinehost.net
+Country: GB United Kingdom
+Location: Bournemouth
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: VineHost https://www.vinehost.net
+
+Site: mirror-mk.interspace.com
+Country: MK North Macedonia
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Sponsor: INTERSPACE https://interspace.com
+
+Site: mirror.rustytel.net
+Country: US United States
+Location: Detroit, MI, USA
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: debian.web.trex.fi
+Country: FI Finland
+Location: Tampere
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: TREX Regional Exchanges Oy https://trex.fi/
+
+Site: mirror.gsl.icu
+Country: AU Australia
+Location: Sydney
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+Archive-http: /debian/
+Sponsor: GSL Networks https://globalsecurelayer.com
+
+Site: mirrors.zju.edu.cn
+Country: CN China
+Location: Hangzhou, Zhejiang
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: ZJU Information Technology Center https://zuits.zju.edu.cn
+
+Site: mirrors.jlu.edu.cn
+Country: CN China
+Location: Changchun, Jilin, China
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Jilin University https://global.jlu.edu.cn
+
+Site: mirrors.xtom.au
+Country: AU Australia
+Location: Sydney
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: xTom https://xtom.com/
+
+Site: mirrors.hostiserver.com
+Country: NL Netherlands
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: IT Services company s.r.o. https://www.hostiserver.com
+
+Site: mirror.gitoyen.net
+Country: FR France
+Location: Paris, 75020, Salamandre https://www.peeringdb.com/fac/11498
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Gitoyen https://gitoyen.net/
+
+Site: mirror.0x626b.com
+Country: US United States
+Location: Kansas City, MO
+Archive-architecture: amd64 arm64 i386 riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Brent Kolasinski https://brentk.io
+
+Site: mirror.limda.net
+Country: BD Bangladesh
+Location: Dhaka
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Limda Host https://www.limda.net
+
+Site: mirror.ibcp.fr
+Country: FR France
+Location: France, Lyon, 69
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: CNRS IBCP https://www.ibcp.fr
+
+Site: mirror.marwan.ma
+Country: MA Morocco
+Location: Rabat
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: MARWAN https://marwan.ma
+
+Site: deb.bbxnet.sk
+Country: SK Slovakia
+Location: Slovakia
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: BBXNET https://bbxnet.sk/
+
+Site: mirror.dst.ca
+Country: CA Canada
+Location: Montreal, Qc
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Digital Shape Technologies Inc. https://www.dst.ca
+
+Site: mirror.xeonbd.com
+Country: BD Bangladesh
+Location: Bangladesh
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: XeonBD https://www.xeonbd.com
+
+Site: mirrors.hosterion.ro
+Country: RO Romania
+Location: Bucharest
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Hosterion https://hosterion.com
+
+Site: elmirror.cl
+Country: CL Chile
+Location: Santiago
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: ElMirror.cl team https://elmirror.cl
+
+Site: lidsol.fi-b.unam.mx
+Country: MX Mexico
+Location: Ciudad de México, México
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Facultad de Ingeniería, UNAM https://www.ingenieria.unam.mx/
+
+Site: mirror.twds.com.tw
+Country: TW Taiwan
+Location: Taipei City
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Ports-architecture: alpha hppa hurd-i386 m68k powerpc ppc64 sh4 sparc64 x32
+Ports-http: /debian-ports/
+Ports-rsync: debian-ports/
+CDImage-http: /debian-cd/
+Sponsor: Taiwan Digital Streaming Co. https://www.twds.com.tw
+
+Site: linuxsoft.cern.ch
+Country: CH Switzerland
+Location: Geneva
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: CERN https://home.cern
+
+Site: debian.mirrors.ovh.net
+Country: FR France
+Location: Gravelines, Roubaix and Strasbourg
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: OVHcloud https://www.ovhcloud.com/
+
+Site: mirror.raiolanetworks.com
+Country: ES Spain
+Location: Madrid
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: pub/debian/
+CDImage-http: /debian-cd/
+Sponsor: Raiola Networks https://raiolanetworks.com/
+
+Site: mirror.veesp.com
+Country: LV Latvia
+Location: RIGA
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: veesp https://veesp.com
+
+Site: mirror.kpfu.ru
+Country: RU Russian Federation
+Location: Kazan, Russia
+Archive-architecture: amd64
+Archive-http: /debian/
+
+Site: mirror.blue3.com.br
+Country: BR Brazil
+Location: Porto Alegre,RS
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: BLUE3 INTERNET https://blue3.com.br
+
+Site: mirror.debian.ikoula.com
+Country: FR France
+Location: Grand Est
+Archive-architecture: amd64 arm64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Ikoula https://www.ikoula.com/
+
+Site: mirror.braindrainlan.nu
+Country: SE Sweden
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Brain Drain LAN https://www.braindrainlan.nu/
+
+Site: nl.mirror.flokinet.net
+Country: NL Netherlands
+Location: Amsterdam
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: FlokiNET https://flokinet.is
+
+Site: mirror.neftm.ru
+Country: RU Russian Federation
+Location: Moscow
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Neftmegistral https://neftm.ru
+
+Site: debian-mirror.behostings.net
+Country: BE Belgium
+Location: Brussels
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+Sponsor: Behostings https://www.behostings.com
+
+Site: mirror.creoline.net
+Country: DE Germany
+Location: Frankfurt
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: creoline GmbH https://www.creoline.com
+
+Site: mirror.bgp.rodeo
+Country: NL Netherlands
+Location: Amsterdam
+Archive-architecture: amd64 arm64
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.tngnet.com
+Country: NL Netherlands
+Location: Amsterdam
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: TNGNET B.V. https://tngnet.com
+
+Site: mirror.5i.fi
+Country: FI Finland
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirrors.ic.unicamp.br
+Country: BR Brazil
+Location: Unicamp
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.plusline.net
+Country: DE Germany
+Location: Frankfurt am Main
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Plus.line AG https://www.plusline.net
+
+Site: deb.syxpi.fr
+Country: FR France
+Location: Les Mureaux, Île-De-France
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Syxpi's Website https://syxpi.fr
+
+Site: mirror.ourhost.az
+Country: AZ Azerbaijan
+Location: Baku, AZ.
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: OUR Host https://ourhost.az
+
+Site: mirrors.cloudforest.co.th
+Country: TH Thailand
+Location: Bangkok
+Archive-architecture: amd64 arm64
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: CLOUDFOREST CO., LTD. https://cloudforest.co.th
+
+Site: mirror.nl.cdn-perfprod.com
+Country: NL Netherlands
+Location: Eygelshoven
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: lethe.chinstrap.org
+Country: US United States
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+
+Site: mirror.unix-solutions.be
+Country: BE Belgium
+Location: Leuven
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Unix-Solutions https://www.unix-solutions.be
+
+Site: debian-mirror.puq.apoapsis.cl
+Country: CL Chile
+Location: Punta Arenas, Chile
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Apoapsis SpA https://www.apoapsis.cl
+
+Site: mirror.flo.c-f.ro
+Country: RO Romania
+Location: Bucharest
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Cyber Folks Romania https://cyberfolks.ro
+
+Site: deb.nextgen.ch
+Country: CH Switzerland
+Location: Baden
+Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Nextgen Computing GmbH https://nextgen.ch
+
+Site: debpkg.libranext.com
+Country: US United States
+Location: Iowa
+Archive-architecture: amd64 arm64 armhf i386 loong64 riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Informed Technology Solutions, LLC https://libranext.com/mirrors
+
+Site: mirror.cpsc.ucalgary.ca
+Country: CA Canada
+Location: Calgary
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: University of Calgary https://ucalgary.ca
+
+Site: debian.ipsys.bf
+Country: BF Burkina Faso
+Location: Ouagadougou
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.maeen.sa
+Country: SA Saudi Arabia
+Location: Riyadh
+Archive-architecture: amd64 arm64
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Maeen Network https://www.maeen.sa
+
+Site: ftp.linux.edu.lv
+Country: LV Latvia
+Location: Riga
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Linux Centrs, University of Latvia https://linuxcentrs.lv/
+
+Site: mirror.famaserver.com
+Country: IR Iran
+Archive-architecture: amd64 arm64 armhf i386 riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: Famaserver https://famaserver.com/
+
+Site: mirror.abaclouda.net
+Country: FR France
+Location: Lyon
+Archive-architecture: amd64
+Archive-http: /debian/
+
+Site: debian.envisagecloud.net.za
+Country: ZA South Africa
+Location: Cape Town
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd
+CDImage-rsync: debian-cd/
+Sponsor: Envisage Cloud Solutions https://hevis.co.za
+
+Site: debian.tuxuri.com
+Country: MY Malaysia
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /debian/
+
+Site: mirrors.egr.msu.edu
+Country: US United States
+Location: East Lansing, MI
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: MSU College of Engineering https://mirrors.egr.msu.edu
+
+Site: repos.interior.edu.uy
+Country: UY Uruguay
+Location: Montevideo
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /debian/
+Sponsor: Universidad de la Republica https://www.universidad.edu.uy
+
+Site: mirror.undernet.uy
+Country: UY Uruguay
+Location: Ciudad de la Costa, Canelones
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Undernet Uruguay https://undernet.uy
+
+Site: mirrors.qlu.edu.cn
+Country: CN China
+Location: Shandong Jinan
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Qilu University of Technology https://www.qlu.edu.cn
+
+Site: debian.uni-due.de
+Country: DE Germany
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd
+CDImage-rsync: debian-cd/
+
+Site: ftp.maru.co.jp
+Country: JP Japan
+Location: Tokyo
+Archive-architecture: amd64 arm64
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.mk.de
+Country: DE Germany
+Archive-architecture: amd64 arm64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: MK Netzdienste https://www.mk.de
+
+Site: mirror.lug.umbc.edu
+Country: US United States
+Location: Baltimore, MD
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.tzulo.com
+Country: US United States
+Location: Chicago, IL
+Archive-architecture: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: tzulo https://tzulo.com
+
+Site: mirror.141networks.com
+Country: US United States
+Location: Tampa Florida
+Archive-architecture: amd64 arm64 i386
+Archive-http: /debian/
+CDImage-http: /debian-cd
+
+Site: mirror.eviltech.co
+Country: CO Colombia
+Location: Bogota
+Archive-architecture: amd64 arm64 armhf i386 loong64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: EvilTech https://eviltech.co
+
+Site: debian.mirror.net.in
+Country: IN India
+Location: Mumbai
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Digital Dreams Consulting Pvt Ltd https://www.ddcpl.com
+
+Site: mirror.pixelhosting.nl
+Country: NL Netherlands
+Location: Doetinchem
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: PixelHosting https://pixelhosting.nl
+
+Site: mirror.retropc.se
+Country: SE Sweden
+Location: Gothenburg
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Swedish Retro Computer Association https://www.retropc.se/
+
+Site: mirror.uk.hyehost.net
+Country: GB United Kingdom
+Location: Wolverhampton
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: HYEHOST https://hyehost.org/
+
+Site: mirror.alastyr.com
+Country: TR Türkiye
+Location: Izmir
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Alastyr Hosting https://www.alastyr.com
+
+Site: mirror.radishnetworks.net
+Country: CA Canada
+Location: Saskatoon, SK
+Archive-architecture: amd64 i386
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Radish Networks https://radishnetworks.com
+
+Site: mirror.sprinthost.ru
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: debian.cif.rochester.edu
+Country: US United States
+Location: Rochester, New York
+Archive-architecture: amd64 arm64 i386 loong64 mips64el ppc64el riscv64
+Archive-http: /debian/
+
+Site: mirror.yandex.ru
+Country: RU Russian Federation
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: mirror.ihost.md
+Country: MD Moldova
+Location: Chisinau
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: iHost https://ihost.md
+
+Site: mirror.apio-sys.fr
+Country: FR France
+Location: Paris
+Archive-architecture: amd64
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Apio systems https://apio.systems
+
+Site: mirror.zyner.org
+Country: SE Sweden
+Location: Lund
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+Sponsor: Zyner https://zyner.org
+
+Site: archive.debian.org
+Country: GB United Kingdom
+Country: NL Netherlands
+Type: RoundRobinDNS
+Old-http: /debian-archive/
+Sponsor: Studenten Net Twente http://www.snt.utwente.nl/
+Sponsor: University of Twente http://www.utwente.nl/
+
+Site: ftp.at.debian.org
+Country: AT Austria
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.au.debian.org
+Country: AU Australia
+Archive-architecture: amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x
+Archive-http: /debian/
+
+Site: ftp.be.debian.org
+Country: BE Belgium
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.bg.debian.org
+Country: BG Bulgaria
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.br.debian.org
+Country: BR Brazil
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x sparc
+Archive-http: /debian/
+
+Site: ftp.by.debian.org
+Country: BY Belarus
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.ca.debian.org
+Country: CA Canada
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.ch.debian.org
+Country: CH Switzerland
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.cl.debian.org
+Country: CL Chile
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.cn.debian.org
+Country: CN China
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.cz.debian.org
+Country: CZ Czech Republic
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.de.debian.org
+Country: DE Germany
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp2.de.debian.org
+Country: DE Germany
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.dk.debian.org
+Country: DK Denmark
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.fi.debian.org
+Country: FI Finland
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.fr.debian.org
+Country: FR France
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.hk.debian.org
+Country: HK Hong Kong
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.hr.debian.org
+Country: HR Croatia
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.is.debian.org
+Country: IS Iceland
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.it.debian.org
+Country: IT Italy
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.kr.debian.org
+Country: KR Korea, Republic of
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.lt.debian.org
+Country: LT Lithuania
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.nl.debian.org
+Country: NL Netherlands
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.no.debian.org
+Country: NO Norway
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.nc.debian.org
+Country: NC New Caledonia
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.nz.debian.org
+Country: NZ New Zealand
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel riscv64
+Archive-http: /debian/
+
+Site: ftp.pl.debian.org
+Country: PL Poland
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.pt.debian.org
+Country: PT Portugal
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.ru.debian.org
+Country: RU Russian Federation
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.se.debian.org
+Country: SE Sweden
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.sk.debian.org
+Country: SK Slovakia
+Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
+Archive-http: /debian/
+
+Site: ftp.tr.debian.org
+Country: TR Turkey
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.tw.debian.org
+Country: TW Taiwan
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.uk.debian.org
+Country: GB United Kingdom
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: ftp.us.debian.org
+Country: US United States
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+
+Site: mirror.fsmg.org.nz
+Country: NZ New Zealand
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel riscv64
+Archive-http: /debian/
+Archive-rsync: debian/
+
+Site: debian.osuosl.org
+Country: US United States
+Location: Corvallis, Oregon
+Location: New York
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-http: /debian-cdimage/
+CDImage-rsync: debian-cdimage/
+Sponsor: OSU Open Source Lab http://www.osuosl.org/
+Comment: offers ssh triggers for downstream mirrors, contact maintainer for setup - see https://www.debian.org/mirror/push_mirroring
+
+Site: debian.carnet.hr
+Country: HR Croatia
+Location: Zagreb
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: debian/
+CDImage-architecture: amd64 i386
+CDImage-http: /debian-cd/
+CDImage-rsync: debian-cd/
+Sponsor: CARNet, Croatian Academic and Research Network http://www.carnet.hr/
+
+Site: mirrors.tuna.tsinghua.edu.cn
+Country: CN China
+Location: Beijing
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Archive-rsync: /debian/
+Sponsor: Tsinghua University http://www.tsinghua.edu.cn/
+
+Site: mirror.mythic-beasts.com
+Country: GB United Kingdom
+Location: Cambridge UK
+Location: London UK
+Archive-architecture: amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64 s390x
+Archive-http: /debian/
+Sponsor: Mythic Beasts Ltd http://www.mythic-beasts.com/
+

@@ -1,0 +1,2825 @@
+[
+ {
+  "cca2": "AW",
+  "cca3": "ABW",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AF",
+  "cca3": "AFG",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "borders": [
+   "IRN",
+   "PAK",
+   "TKM",
+   "UZB",
+   "TJK",
+   "CHN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AO",
+  "cca3": "AGO",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [
+   "COG",
+   "COD",
+   "ZMB",
+   "NAM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AI",
+  "cca3": "AIA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AX",
+  "cca3": "ALA",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AL",
+  "cca3": "ALB",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "MNE",
+   "GRC",
+   "MKD",
+   "KOS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AD",
+  "cca3": "AND",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "FRA",
+   "ESP"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AE",
+  "cca3": "ARE",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "OMN",
+   "SAU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AR",
+  "cca3": "ARG",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "BOL",
+   "BRA",
+   "CHL",
+   "PRY",
+   "URY"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AM",
+  "cca3": "ARM",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "AZE",
+   "GEO",
+   "IRN",
+   "TUR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AS",
+  "cca3": "ASM",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AQ",
+  "cca3": "ATA",
+  "region": "",
+  "subregion": "",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TF",
+  "cca3": "ATF",
+  "region": "",
+  "subregion": "",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AG",
+  "cca3": "ATG",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AU",
+  "cca3": "AUS",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AT",
+  "cca3": "AUT",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "borders": [
+   "CZE",
+   "DEU",
+   "HUN",
+   "ITA",
+   "LIE",
+   "SVK",
+   "SVN",
+   "CHE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "AZ",
+  "cca3": "AZE",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "ARM",
+   "GEO",
+   "IRN",
+   "RUS",
+   "TUR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BI",
+  "cca3": "BDI",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "COD",
+   "RWA",
+   "TZA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BE",
+  "cca3": "BEL",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "borders": [
+   "FRA",
+   "DEU",
+   "LUX",
+   "NLD"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BJ",
+  "cca3": "BEN",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "BFA",
+   "NER",
+   "NGA",
+   "TGO"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BF",
+  "cca3": "BFA",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "BEN",
+   "CIV",
+   "GHA",
+   "MLI",
+   "NER",
+   "TGO"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BD",
+  "cca3": "BGD",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "borders": [
+   "MMR",
+   "IND"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BG",
+  "cca3": "BGR",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "GRC",
+   "MKD",
+   "ROU",
+   "SRB",
+   "TUR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BH",
+  "cca3": "BHR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BS",
+  "cca3": "BHS",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BA",
+  "cca3": "BIH",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "HRV",
+   "MNE",
+   "SRB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BL",
+  "cca3": "BLM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BY",
+  "cca3": "BLR",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "LVA",
+   "LTU",
+   "POL",
+   "RUS",
+   "UKR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BZ",
+  "cca3": "BLZ",
+  "region": "Americas",
+  "subregion": "Central America",
+  "borders": [
+   "GTM",
+   "MEX"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BM",
+  "cca3": "BMU",
+  "region": "Americas",
+  "subregion": "Northern America",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BO",
+  "cca3": "BOL",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "ARG",
+   "BRA",
+   "CHL",
+   "PRY",
+   "PER"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BR",
+  "cca3": "BRA",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "ARG",
+   "BOL",
+   "COL",
+   "GUF",
+   "GUY",
+   "PRY",
+   "PER",
+   "SUR",
+   "URY",
+   "VEN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BB",
+  "cca3": "BRB",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BN",
+  "cca3": "BRN",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [
+   "MYS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BT",
+  "cca3": "BTN",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "borders": [
+   "CHN",
+   "IND"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BV",
+  "cca3": "BVT",
+  "region": "",
+  "subregion": "",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "BW",
+  "cca3": "BWA",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "borders": [
+   "NAM",
+   "ZAF",
+   "ZMB",
+   "ZWE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CF",
+  "cca3": "CAF",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [
+   "CMR",
+   "TCD",
+   "COD",
+   "COG",
+   "SSD",
+   "SDN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CA",
+  "cca3": "CAN",
+  "region": "Americas",
+  "subregion": "Northern America",
+  "borders": [
+   "USA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CC",
+  "cca3": "CCK",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CH",
+  "cca3": "CHE",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "borders": [
+   "AUT",
+   "FRA",
+   "ITA",
+   "LIE",
+   "DEU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CL",
+  "cca3": "CHL",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "ARG",
+   "BOL",
+   "PER"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CN",
+  "cca3": "CHN",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "borders": [
+   "AFG",
+   "BTN",
+   "MMR",
+   "HKG",
+   "IND",
+   "KAZ",
+   "PRK",
+   "KGZ",
+   "LAO",
+   "MAC",
+   "MNG",
+   "PAK",
+   "RUS",
+   "TJK",
+   "VNM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CI",
+  "cca3": "CIV",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "BFA",
+   "GHA",
+   "GIN",
+   "LBR",
+   "MLI"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CM",
+  "cca3": "CMR",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [
+   "CAF",
+   "TCD",
+   "COG",
+   "GNQ",
+   "GAB",
+   "NGA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CD",
+  "cca3": "COD",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [
+   "AGO",
+   "BDI",
+   "CAF",
+   "COG",
+   "RWA",
+   "SSD",
+   "TZA",
+   "UGA",
+   "ZMB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CG",
+  "cca3": "COG",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [
+   "AGO",
+   "CMR",
+   "CAF",
+   "COD",
+   "GAB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CK",
+  "cca3": "COK",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CO",
+  "cca3": "COL",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "BRA",
+   "ECU",
+   "PAN",
+   "PER",
+   "VEN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KM",
+  "cca3": "COM",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CV",
+  "cca3": "CPV",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CR",
+  "cca3": "CRI",
+  "region": "Americas",
+  "subregion": "Central America",
+  "borders": [
+   "NIC",
+   "PAN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CU",
+  "cca3": "CUB",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CW",
+  "cca3": "CUW",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CX",
+  "cca3": "CXR",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KY",
+  "cca3": "CYM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CY",
+  "cca3": "CYP",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "GBR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "CZ",
+  "cca3": "CZE",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "AUT",
+   "DEU",
+   "POL",
+   "SVK"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "DE",
+  "cca3": "DEU",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "borders": [
+   "AUT",
+   "BEL",
+   "CZE",
+   "DNK",
+   "FRA",
+   "LUX",
+   "NLD",
+   "POL",
+   "CHE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "DJ",
+  "cca3": "DJI",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "ERI",
+   "ETH",
+   "SOM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "DM",
+  "cca3": "DMA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "DK",
+  "cca3": "DNK",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [
+   "DEU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "DO",
+  "cca3": "DOM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [
+   "HTI"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "DZ",
+  "cca3": "DZA",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "borders": [
+   "TUN",
+   "LBY",
+   "NER",
+   "ESH",
+   "MRT",
+   "MLI",
+   "MAR"
+  ],
+  "networkNeighbors": [
+   "FRA",
+   "ITA",
+   "ESP"
+  ]
+ },
+ {
+  "cca2": "EC",
+  "cca3": "ECU",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "COL",
+   "PER"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "EG",
+  "cca3": "EGY",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "borders": [
+   "ISR",
+   "LBY",
+   "SDN"
+  ],
+  "networkNeighbors": [
+   "ITA",
+   "TUR",
+   "SAU"
+  ]
+ },
+ {
+  "cca2": "ER",
+  "cca3": "ERI",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "DJI",
+   "ETH",
+   "SDN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "EH",
+  "cca3": "ESH",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "borders": [
+   "DZA",
+   "MRT",
+   "MAR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "ES",
+  "cca3": "ESP",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "AND",
+   "FRA",
+   "GIB",
+   "PRT",
+   "MAR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "EE",
+  "cca3": "EST",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [
+   "LVA",
+   "RUS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "ET",
+  "cca3": "ETH",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "DJI",
+   "ERI",
+   "KEN",
+   "SOM",
+   "SSD",
+   "SDN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "FI",
+  "cca3": "FIN",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [
+   "NOR",
+   "SWE",
+   "RUS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "FJ",
+  "cca3": "FJI",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "FK",
+  "cca3": "FLK",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "FR",
+  "cca3": "FRA",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "borders": [
+   "AND",
+   "BEL",
+   "DEU",
+   "ITA",
+   "LUX",
+   "MCO",
+   "ESP",
+   "CHE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "FO",
+  "cca3": "FRO",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "FM",
+  "cca3": "FSM",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GA",
+  "cca3": "GAB",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [
+   "CMR",
+   "COG",
+   "GNQ"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GB",
+  "cca3": "GBR",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [
+   "IRL"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GE",
+  "cca3": "GEO",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "ARM",
+   "AZE",
+   "RUS",
+   "TUR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GG",
+  "cca3": "GGY",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GH",
+  "cca3": "GHA",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "BFA",
+   "CIV",
+   "TGO"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GI",
+  "cca3": "GIB",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "ESP"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GN",
+  "cca3": "GIN",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "CIV",
+   "GNB",
+   "LBR",
+   "MLI",
+   "SEN",
+   "SLE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GP",
+  "cca3": "GLP",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GM",
+  "cca3": "GMB",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "SEN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GW",
+  "cca3": "GNB",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "GIN",
+   "SEN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GQ",
+  "cca3": "GNQ",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [
+   "CMR",
+   "GAB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GR",
+  "cca3": "GRC",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "ALB",
+   "BGR",
+   "TUR",
+   "MKD"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GD",
+  "cca3": "GRD",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GL",
+  "cca3": "GRL",
+  "region": "Americas",
+  "subregion": "Northern America",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GT",
+  "cca3": "GTM",
+  "region": "Americas",
+  "subregion": "Central America",
+  "borders": [
+   "BLZ",
+   "SLV",
+   "HND",
+   "MEX"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GF",
+  "cca3": "GUF",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "BRA",
+   "SUR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GU",
+  "cca3": "GUM",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GY",
+  "cca3": "GUY",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "BRA",
+   "SUR",
+   "VEN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "HK",
+  "cca3": "HKG",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "borders": [
+   "CHN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "HM",
+  "cca3": "HMD",
+  "region": "",
+  "subregion": "",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "HN",
+  "cca3": "HND",
+  "region": "Americas",
+  "subregion": "Central America",
+  "borders": [
+   "GTM",
+   "SLV",
+   "NIC"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "HR",
+  "cca3": "HRV",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "BIH",
+   "HUN",
+   "MNE",
+   "SRB",
+   "SVN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "HT",
+  "cca3": "HTI",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [
+   "DOM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "HU",
+  "cca3": "HUN",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "AUT",
+   "HRV",
+   "ROU",
+   "SRB",
+   "SVK",
+   "SVN",
+   "UKR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "ID",
+  "cca3": "IDN",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [
+   "TLS",
+   "MYS",
+   "PNG"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "IM",
+  "cca3": "IMN",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "IN",
+  "cca3": "IND",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "borders": [
+   "AFG",
+   "BGD",
+   "BTN",
+   "MMR",
+   "CHN",
+   "NPL",
+   "PAK",
+   "LKA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "IO",
+  "cca3": "IOT",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "IE",
+  "cca3": "IRL",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [
+   "GBR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "IR",
+  "cca3": "IRN",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "borders": [
+   "AFG",
+   "ARM",
+   "AZE",
+   "IRQ",
+   "PAK",
+   "TUR",
+   "TKM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "IQ",
+  "cca3": "IRQ",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "IRN",
+   "JOR",
+   "KWT",
+   "SAU",
+   "SYR",
+   "TUR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "IS",
+  "cca3": "ISL",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "IL",
+  "cca3": "ISR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "EGY",
+   "JOR",
+   "LBN",
+   "SYR"
+  ],
+  "networkNeighbors": [
+   "ITA",
+   "FRA",
+   "ESP"
+  ]
+ },
+ {
+  "cca2": "IT",
+  "cca3": "ITA",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "AUT",
+   "FRA",
+   "SMR",
+   "SVN",
+   "CHE",
+   "VAT"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "JM",
+  "cca3": "JAM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "JE",
+  "cca3": "JEY",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "JO",
+  "cca3": "JOR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "IRQ",
+   "ISR",
+   "SAU",
+   "SYR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "JP",
+  "cca3": "JPN",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KZ",
+  "cca3": "KAZ",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "borders": [
+   "CHN",
+   "KGZ",
+   "RUS",
+   "TKM",
+   "UZB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KE",
+  "cca3": "KEN",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "ETH",
+   "SOM",
+   "SSD",
+   "TZA",
+   "UGA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KG",
+  "cca3": "KGZ",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "borders": [
+   "CHN",
+   "KAZ",
+   "TJK",
+   "UZB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KH",
+  "cca3": "KHM",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [
+   "LAO",
+   "THA",
+   "VNM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KI",
+  "cca3": "KIR",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KN",
+  "cca3": "KNA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KR",
+  "cca3": "KOR",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "borders": [
+   "PRK"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "XK",
+  "cca3": "KOS",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "ALB",
+   "MKD",
+   "MNE",
+   "SRB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KW",
+  "cca3": "KWT",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "IRQ",
+   "SAU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LA",
+  "cca3": "LAO",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [
+   "MMR",
+   "KHM",
+   "CHN",
+   "THA",
+   "VNM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LB",
+  "cca3": "LBN",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "ISR",
+   "SYR"
+  ],
+  "networkNeighbors": [
+   "ESP",
+   "ITA"
+  ]
+ },
+ {
+  "cca2": "LR",
+  "cca3": "LBR",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "GIN",
+   "CIV",
+   "SLE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LY",
+  "cca3": "LBY",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "borders": [
+   "DZA",
+   "TCD",
+   "EGY",
+   "NER",
+   "SDN",
+   "TUN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LC",
+  "cca3": "LCA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LI",
+  "cca3": "LIE",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "borders": [
+   "AUT",
+   "CHE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LK",
+  "cca3": "LKA",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "borders": [
+   "IND"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LS",
+  "cca3": "LSO",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "borders": [
+   "ZAF"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LT",
+  "cca3": "LTU",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [
+   "BLR",
+   "LVA",
+   "POL",
+   "RUS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LU",
+  "cca3": "LUX",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "borders": [
+   "BEL",
+   "FRA",
+   "DEU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "LV",
+  "cca3": "LVA",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [
+   "BLR",
+   "EST",
+   "LTU",
+   "RUS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MO",
+  "cca3": "MAC",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "borders": [
+   "CHN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MF",
+  "cca3": "MAF",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [
+   "SXM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MA",
+  "cca3": "MAR",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "borders": [
+   "DZA",
+   "ESH",
+   "ESP"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MC",
+  "cca3": "MCO",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "borders": [
+   "FRA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MD",
+  "cca3": "MDA",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "ROU",
+   "UKR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MG",
+  "cca3": "MDG",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MV",
+  "cca3": "MDV",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MX",
+  "cca3": "MEX",
+  "region": "Americas",
+  "subregion": "Central America",
+  "borders": [
+   "BLZ",
+   "GTM",
+   "USA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MH",
+  "cca3": "MHL",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MK",
+  "cca3": "MKD",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "ALB",
+   "BGR",
+   "GRC",
+   "KOS",
+   "SRB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "ML",
+  "cca3": "MLI",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "DZA",
+   "BFA",
+   "GIN",
+   "CIV",
+   "MRT",
+   "NER",
+   "SEN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MT",
+  "cca3": "MLT",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MM",
+  "cca3": "MMR",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [
+   "BGD",
+   "CHN",
+   "IND",
+   "LAO",
+   "THA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "ME",
+  "cca3": "MNE",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "ALB",
+   "BIH",
+   "HRV",
+   "KOS",
+   "SRB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MN",
+  "cca3": "MNG",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "borders": [
+   "CHN",
+   "RUS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MP",
+  "cca3": "MNP",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MZ",
+  "cca3": "MOZ",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "MWI",
+   "ZAF",
+   "SWZ",
+   "TZA",
+   "ZMB",
+   "ZWE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MR",
+  "cca3": "MRT",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "DZA",
+   "MLI",
+   "SEN",
+   "ESH"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MS",
+  "cca3": "MSR",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MQ",
+  "cca3": "MTQ",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MU",
+  "cca3": "MUS",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MW",
+  "cca3": "MWI",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "MOZ",
+   "TZA",
+   "ZMB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "MY",
+  "cca3": "MYS",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [
+   "BRN",
+   "IDN",
+   "THA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "YT",
+  "cca3": "MYT",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NA",
+  "cca3": "NAM",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "borders": [
+   "AGO",
+   "BWA",
+   "ZAF",
+   "ZMB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NC",
+  "cca3": "NCL",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NE",
+  "cca3": "NER",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "DZA",
+   "BEN",
+   "BFA",
+   "TCD",
+   "LBY",
+   "MLI",
+   "NGA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NF",
+  "cca3": "NFK",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NG",
+  "cca3": "NGA",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "BEN",
+   "CMR",
+   "TCD",
+   "NER"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NI",
+  "cca3": "NIC",
+  "region": "Americas",
+  "subregion": "Central America",
+  "borders": [
+   "CRI",
+   "HND"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NU",
+  "cca3": "NIU",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NL",
+  "cca3": "NLD",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "borders": [
+   "BEL",
+   "DEU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NO",
+  "cca3": "NOR",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [
+   "FIN",
+   "SWE",
+   "RUS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NP",
+  "cca3": "NPL",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "borders": [
+   "CHN",
+   "IND"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NR",
+  "cca3": "NRU",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "NZ",
+  "cca3": "NZL",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "OM",
+  "cca3": "OMN",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "SAU",
+   "ARE",
+   "YEM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PK",
+  "cca3": "PAK",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "borders": [
+   "AFG",
+   "CHN",
+   "IND",
+   "IRN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PA",
+  "cca3": "PAN",
+  "region": "Americas",
+  "subregion": "Central America",
+  "borders": [
+   "COL",
+   "CRI"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PN",
+  "cca3": "PCN",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PE",
+  "cca3": "PER",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "BOL",
+   "BRA",
+   "CHL",
+   "COL",
+   "ECU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PH",
+  "cca3": "PHL",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PW",
+  "cca3": "PLW",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PG",
+  "cca3": "PNG",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "borders": [
+   "IDN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PL",
+  "cca3": "POL",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "BLR",
+   "CZE",
+   "DEU",
+   "LTU",
+   "RUS",
+   "SVK",
+   "UKR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PR",
+  "cca3": "PRI",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "KP",
+  "cca3": "PRK",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "borders": [
+   "CHN",
+   "KOR",
+   "RUS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PT",
+  "cca3": "PRT",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "ESP"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PY",
+  "cca3": "PRY",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "ARG",
+   "BOL",
+   "BRA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PS",
+  "cca3": "PSE",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "ISR",
+   "EGY",
+   "JOR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PF",
+  "cca3": "PYF",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "QA",
+  "cca3": "QAT",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "SAU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "RE",
+  "cca3": "REU",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "RO",
+  "cca3": "ROU",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "BGR",
+   "HUN",
+   "MDA",
+   "SRB",
+   "UKR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "RU",
+  "cca3": "RUS",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "AZE",
+   "BLR",
+   "CHN",
+   "EST",
+   "FIN",
+   "GEO",
+   "KAZ",
+   "PRK",
+   "LVA",
+   "LTU",
+   "MNG",
+   "NOR",
+   "POL",
+   "UKR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "RW",
+  "cca3": "RWA",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "BDI",
+   "COD",
+   "TZA",
+   "UGA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SA",
+  "cca3": "SAU",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "IRQ",
+   "JOR",
+   "KWT",
+   "OMN",
+   "QAT",
+   "ARE",
+   "YEM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SD",
+  "cca3": "SDN",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "borders": [
+   "CAF",
+   "TCD",
+   "EGY",
+   "ERI",
+   "ETH",
+   "LBY",
+   "SSD"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SN",
+  "cca3": "SEN",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "GMB",
+   "GIN",
+   "GNB",
+   "MLI",
+   "MRT"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SG",
+  "cca3": "SGP",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "GS",
+  "cca3": "SGS",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SJ",
+  "cca3": "SJM",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SB",
+  "cca3": "SLB",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SL",
+  "cca3": "SLE",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "GIN",
+   "LBR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SV",
+  "cca3": "SLV",
+  "region": "Americas",
+  "subregion": "Central America",
+  "borders": [
+   "GTM",
+   "HND"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SM",
+  "cca3": "SMR",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "ITA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SO",
+  "cca3": "SOM",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "DJI",
+   "ETH",
+   "KEN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "PM",
+  "cca3": "SPM",
+  "region": "Americas",
+  "subregion": "Northern America",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "RS",
+  "cca3": "SRB",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "BIH",
+   "BGR",
+   "HRV",
+   "HUN",
+   "KOS",
+   "MKD",
+   "MNE",
+   "ROU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SS",
+  "cca3": "SSD",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [
+   "CAF",
+   "COD",
+   "ETH",
+   "KEN",
+   "SDN",
+   "UGA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "ST",
+  "cca3": "STP",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SR",
+  "cca3": "SUR",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "BRA",
+   "GUF",
+   "GUY"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SK",
+  "cca3": "SVK",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "AUT",
+   "CZE",
+   "HUN",
+   "POL",
+   "UKR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SI",
+  "cca3": "SVN",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "AUT",
+   "HRV",
+   "ITA",
+   "HUN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SE",
+  "cca3": "SWE",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "borders": [
+   "FIN",
+   "NOR"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SZ",
+  "cca3": "SWZ",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "borders": [
+   "MOZ",
+   "ZAF"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SX",
+  "cca3": "SXM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [
+   "MAF"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SC",
+  "cca3": "SYC",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "SY",
+  "cca3": "SYR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "IRQ",
+   "ISR",
+   "JOR",
+   "LBN",
+   "TUR"
+  ],
+  "networkNeighbors": [
+   "EGY"
+  ]
+ },
+ {
+  "cca2": "TC",
+  "cca3": "TCA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TD",
+  "cca3": "TCD",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "borders": [
+   "CMR",
+   "CAF",
+   "LBY",
+   "NER",
+   "NGA",
+   "SSD"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TG",
+  "cca3": "TGO",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "borders": [
+   "BEN",
+   "BFA",
+   "GHA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TH",
+  "cca3": "THA",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [
+   "MMR",
+   "KHM",
+   "LAO",
+   "MYS"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TJ",
+  "cca3": "TJK",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "borders": [
+   "AFG",
+   "CHN",
+   "KGZ",
+   "UZB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TK",
+  "cca3": "TKL",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TM",
+  "cca3": "TKM",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "borders": [
+   "AFG",
+   "IRN",
+   "KAZ",
+   "UZB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TL",
+  "cca3": "TLS",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [
+   "IDN"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TO",
+  "cca3": "TON",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TT",
+  "cca3": "TTO",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TN",
+  "cca3": "TUN",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "borders": [
+   "DZA",
+   "LBY"
+  ],
+  "networkNeighbors": [
+   "FRA",
+   "ITA",
+   "SPA"
+  ]
+ },
+ {
+  "cca2": "TR",
+  "cca3": "TUR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "ARM",
+   "AZE",
+   "BGR",
+   "GEO",
+   "GRC",
+   "IRN",
+   "IRQ",
+   "SYR"
+  ],
+  "networkNeighbors": [
+   "DEU",
+   "NLD",
+   "FRA"
+  ]
+ },
+ {
+  "cca2": "TV",
+  "cca3": "TUV",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TW",
+  "cca3": "TWN",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "TZ",
+  "cca3": "TZA",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "BDI",
+   "COD",
+   "KEN",
+   "MWI",
+   "MOZ",
+   "RWA",
+   "UGA",
+   "ZMB"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "UG",
+  "cca3": "UGA",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "COD",
+   "KEN",
+   "RWA",
+   "SSD",
+   "TZA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "UA",
+  "cca3": "UKR",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "borders": [
+   "BLR",
+   "HUN",
+   "MDA",
+   "POL",
+   "ROU",
+   "RUS",
+   "SVK"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "UM",
+  "cca3": "UMI",
+  "region": "Americas",
+  "subregion": "Northern America",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "UY",
+  "cca3": "URY",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "ARG",
+   "BRA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "US",
+  "cca3": "USA",
+  "region": "Americas",
+  "subregion": "Northern America",
+  "borders": [
+   "CAN",
+   "MEX"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "UZ",
+  "cca3": "UZB",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "borders": [
+   "AFG",
+   "KAZ",
+   "KGZ",
+   "TJK",
+   "TKM"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "VA",
+  "cca3": "VAT",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "borders": [
+   "ITA"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "VC",
+  "cca3": "VCT",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "VE",
+  "cca3": "VEN",
+  "region": "Americas",
+  "subregion": "South America",
+  "borders": [
+   "BRA",
+   "COL",
+   "GUY"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "VG",
+  "cca3": "VGB",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "VI",
+  "cca3": "VIR",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "VN",
+  "cca3": "VNM",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "borders": [
+   "KHM",
+   "CHN",
+   "LAO"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "VU",
+  "cca3": "VUT",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "WF",
+  "cca3": "WLF",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "WS",
+  "cca3": "WSM",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "borders": [],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "YE",
+  "cca3": "YEM",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "borders": [
+   "OMN",
+   "SAU"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "ZA",
+  "cca3": "ZAF",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "borders": [
+   "BWA",
+   "LSO",
+   "MOZ",
+   "NAM",
+   "SWZ",
+   "ZWE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "ZM",
+  "cca3": "ZMB",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "AGO",
+   "BWA",
+   "COD",
+   "MWI",
+   "MOZ",
+   "NAM",
+   "TZA",
+   "ZWE"
+  ],
+  "networkNeighbors": []
+ },
+ {
+  "cca2": "ZW",
+  "cca3": "ZWE",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "borders": [
+   "BWA",
+   "MOZ",
+   "ZAF",
+   "ZMB"
+  ],
+  "networkNeighbors": []
+ }
+]

@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+cd "$(dirname "$0")"
+[ -d build ] || meson setup build --prefix=/usr
+ninja -C build
+meson test -C build
+sudo ninja -C build install
+menta-sources

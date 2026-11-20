@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+cd "$(dirname "$0")/.."
+curl --fail --silent --show-error --location \
+    --output data/Mirrors.masterlist.new \
+    https://mirror-master.debian.org/status/Mirrors.masterlist
+grep -q '^Site: deb.debian.org$' data/Mirrors.masterlist.new
+mv data/Mirrors.masterlist.new data/Mirrors.masterlist

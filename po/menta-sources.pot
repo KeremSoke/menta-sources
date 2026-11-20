@@ -1,0 +1,556 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the menta-sources package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: menta-sources\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-20 17:15-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/menta-sources.desktop:2 data/ui/menta-sources.ui:6
+#: src/app/application.vala:102 src/app/main.vala:5 src/app/main.vala:47
+msgid "Software Sources"
+msgstr ""
+
+#: data/menta-sources.desktop:87
+msgid "Configure the sources for installable software and updates"
+msgstr ""
+
+#: data/ui/menta-sources.ui:28
+msgid "_Reload"
+msgstr ""
+
+#: data/ui/menta-sources.ui:50
+msgid ""
+"The information about available software is out of date. Reload it to "
+"install software and updates from new or changed sources."
+msgstr ""
+
+#: data/ui/menta-sources.ui:68 src/app/application.vala:1099
+msgid "Downloading the package information..."
+msgstr ""
+
+#: data/ui/menta-sources.ui:94
+msgid "Failed to download the package information"
+msgstr ""
+
+#: data/ui/menta-sources.ui:156
+msgid "Distribution:"
+msgstr ""
+
+#: data/ui/menta-sources.ui:183
+msgid "Download from:"
+msgstr ""
+
+#: data/ui/menta-sources.ui:227
+msgid "Components"
+msgstr ""
+
+#: data/ui/menta-sources.ui:255
+msgid "Updates"
+msgstr ""
+
+#: data/ui/menta-sources.ui:283
+msgid "Developer Options"
+msgstr ""
+
+#: data/ui/menta-sources.ui:299
+msgid "_Source code (deb-src)"
+msgstr ""
+
+#: data/ui/menta-sources.ui:309
+msgid "_Debug symbols (dbgsym)"
+msgstr ""
+
+#: data/ui/menta-sources.ui:329
+msgid "Restore _Defaults"
+msgstr ""
+
+#: data/ui/menta-sources.ui:353
+msgid "Debian Software"
+msgstr ""
+
+#: data/ui/menta-sources.ui:391
+msgid "_Add..."
+msgstr ""
+
+#: data/ui/menta-sources.ui:400 data/ui/menta-sources.ui:496
+#: data/ui/menta-sources.ui:891 src/app/foreign.vala:391
+msgid "_Remove"
+msgstr ""
+
+#: data/ui/menta-sources.ui:419
+msgid "Other Software"
+msgstr ""
+
+#: data/ui/menta-sources.ui:443
+msgid "Trusted software providers:"
+msgstr ""
+
+#: data/ui/menta-sources.ui:478
+msgid "_Import Key File..."
+msgstr ""
+
+#: data/ui/menta-sources.ui:487
+msgid "_Download Key..."
+msgstr ""
+
+#: data/ui/menta-sources.ui:515
+msgid "Authentication"
+msgstr ""
+
+#: data/ui/menta-sources.ui:531
+msgid "Fix MergeList Problems"
+msgstr ""
+
+#: data/ui/menta-sources.ui:545
+msgid ""
+"Delete the downloaded package information. Use this when APT reports "
+"MergeList or hash sum errors."
+msgstr ""
+
+#: data/ui/menta-sources.ui:557
+msgid "Purge Residual Configuration"
+msgstr ""
+
+#: data/ui/menta-sources.ui:571
+msgid "Delete the configuration files left behind by removed packages."
+msgstr ""
+
+#: data/ui/menta-sources.ui:582
+msgid "Remove Duplicate Entries"
+msgstr ""
+
+#: data/ui/menta-sources.ui:596
+msgid "Remove repositories which are configured more than once."
+msgstr ""
+
+#: data/ui/menta-sources.ui:607
+msgid "Add Missing Keys"
+msgstr ""
+
+#: data/ui/menta-sources.ui:621
+msgid "Download the keys of repositories whose signatures can't be verified."
+msgstr ""
+
+#: data/ui/menta-sources.ui:632
+msgid "Remove Foreign Packages..."
+msgstr ""
+
+#: data/ui/menta-sources.ui:646
+msgid "Remove installed packages which aren't available from any repository."
+msgstr ""
+
+#: data/ui/menta-sources.ui:657
+msgid "Downgrade Foreign Packages..."
+msgstr ""
+
+#: data/ui/menta-sources.ui:671
+msgid ""
+"Bring packages from other sources back to the version provided by Debian."
+msgstr ""
+
+#: data/ui/menta-sources.ui:689
+msgid "Maintenance"
+msgstr ""
+
+#: data/ui/menta-sources.ui:707 data/ui/menta-sources.ui:882
+msgid "_Close"
+msgstr ""
+
+#: data/ui/menta-sources.ui:721
+msgid "Choose a Download Server"
+msgstr ""
+
+#: data/ui/menta-sources.ui:739 src/app/application.vala:781
+#: src/app/foreign.vala:502
+msgid "_Cancel"
+msgstr ""
+
+#: data/ui/menta-sources.ui:748
+msgid "C_hoose Server"
+msgstr ""
+
+#: data/ui/menta-sources.ui:765
+msgid ""
+"Servers are tested for speed and freshness. Select the server to download "
+"Debian software from:"
+msgstr ""
+
+#: data/ui/menta-sources.ui:822
+msgid "Looking for foreign packages..."
+msgstr ""
+
+#: data/ui/menta-sources.ui:870 src/app/foreign.vala:468
+#: src/app/foreign.vala:586
+msgid "Select _All"
+msgstr ""
+
+#: src/app/application.vala:69
+msgid "Free software supported by Debian"
+msgstr ""
+
+#: src/app/application.vala:70
+msgid "Free software which depends on non-free software"
+msgstr ""
+
+#: src/app/application.vala:71
+msgid "Software which doesn't comply with the Debian Free Software Guidelines"
+msgstr ""
+
+#: src/app/application.vala:72
+msgid "Non-free firmware for hardware support"
+msgstr ""
+
+#: src/app/application.vala:78
+msgid "Important security updates"
+msgstr ""
+
+#: src/app/application.vala:79
+msgid "Recommended updates"
+msgstr ""
+
+#: src/app/application.vala:80
+msgid "Newer versions of selected packages (backports)"
+msgstr ""
+
+#: src/app/application.vala:81
+msgid "Updates proposed for the next point release"
+msgstr ""
+
+#: src/app/application.vala:82
+msgid "Experimental packages"
+msgstr ""
+
+#: src/app/application.vala:146
+msgid "Enabled"
+msgstr ""
+
+#: src/app/application.vala:158
+msgid "Repository"
+msgstr ""
+
+#: src/app/application.vala:171
+msgid "Key"
+msgstr ""
+
+#: src/app/application.vala:217
+#, c-format
+msgid "The official Debian repositories were moved to %s."
+msgstr ""
+
+#: src/app/application.vala:219
+msgid "Backups of the previous configuration:"
+msgstr ""
+
+#: src/app/application.vala:312
+msgid "There is no residual configuration on the system."
+msgstr ""
+
+#: src/app/application.vala:315
+msgid "The configuration files of the following packages will be deleted:"
+msgstr ""
+
+#: src/app/application.vala:328
+msgid "There is no more residual configuration on the system."
+msgstr ""
+
+#: src/app/application.vala:345
+msgid "The problem was fixed. Please reload the cache."
+msgstr ""
+
+#: src/app/application.vala:374
+msgid "Duplicate entries were removed. Please reload the cache."
+msgstr ""
+
+#: src/app/application.vala:378
+msgid "No duplicate entries were found."
+msgstr ""
+
+#: src/app/application.vala:590
+msgid ""
+"Error with your APT configuration, you may have to reload the cache first."
+msgstr ""
+
+#: src/app/application.vala:641
+msgid "No missing keys were found."
+msgstr ""
+
+#: src/app/application.vala:644
+msgid "All missing keys were successfully added."
+msgstr ""
+
+#: src/app/application.vala:644
+msgid "Not all missing keys could be found."
+msgstr ""
+
+#: src/app/application.vala:647
+msgid "Keys were added for the following repositories:"
+msgstr ""
+
+#: src/app/application.vala:657
+msgid "Keys are still missing for the following repositories:"
+msgstr ""
+
+#: src/app/application.vala:663
+msgid ""
+"Add the remaining missing key(s) manually or remove the corresponding "
+"repositories."
+msgstr ""
+
+#: src/app/application.vala:668
+msgid "Please reload the cache."
+msgstr ""
+
+#: src/app/application.vala:780
+msgid "Import Key File"
+msgstr ""
+
+#: src/app/application.vala:782
+msgid "_Import"
+msgstr ""
+
+#: src/app/application.vala:786
+msgid "Key files"
+msgstr ""
+
+#: src/app/application.vala:796
+msgid "All files"
+msgstr ""
+
+#: src/app/application.vala:814
+msgid "No key could be imported from this file."
+msgstr ""
+
+#: src/app/application.vala:828
+#, c-format
+msgid ""
+"Please enter the fingerprint of the public key you want to download from %s:"
+msgstr ""
+
+#: src/app/application.vala:862
+msgid "The key could not be downloaded."
+msgstr ""
+
+#: src/app/application.vala:883
+msgid "Are you sure you want to permanently remove the selected keys?"
+msgstr ""
+
+#: src/app/application.vala:928
+msgid "Please enter the APT line of the repository you want to add:"
+msgstr ""
+
+#: src/app/application.vala:934 src/cli/add-apt-repository.vala:49
+msgid "Malformed input, repository not added."
+msgstr ""
+
+#: src/app/application.vala:938
+msgid "This repository is already configured, you cannot add it a second time."
+msgstr ""
+
+#: src/app/application.vala:954
+msgid "Are you sure you want to permanently remove the selected repositories?"
+msgstr ""
+
+#: src/app/application.vala:1070
+msgid ""
+"Experimental contains packages which are under development and may be "
+"broken. They are only installed when you explicitly ask for them. Are you "
+"sure you want to enable Experimental?"
+msgstr ""
+
+#: src/app/countries.vala:74
+msgid "Worldwide"
+msgstr ""
+
+#: src/app/countries.vala:77
+msgid "Unknown"
+msgstr ""
+
+#: src/app/foreign.vala:375
+msgid "Foreign Packages"
+msgstr ""
+
+#: src/app/foreign.vala:388
+msgid "_Downgrade"
+msgstr ""
+
+#: src/app/foreign.vala:389
+msgid ""
+"The version of the following packages doesn't match the one provided by "
+"Debian:"
+msgstr ""
+
+#: src/app/foreign.vala:392
+msgid ""
+"The packages below are installed on your computer but not present in the "
+"repositories:"
+msgstr ""
+
+#: src/app/foreign.vala:411
+msgid "Package"
+msgstr ""
+
+#: src/app/foreign.vala:415
+msgid "Installed version"
+msgstr ""
+
+#: src/app/foreign.vala:420
+msgid "Repository version"
+msgstr ""
+
+#: src/app/foreign.vala:501
+msgid "Review the changes below carefully before applying them."
+msgstr ""
+
+#: src/app/foreign.vala:503
+msgid "_Apply"
+msgstr ""
+
+#: src/app/foreign.vala:507
+msgid "The following packages will be removed:"
+msgstr ""
+
+#: src/app/foreign.vala:514
+msgid "The following packages will be installed or downgraded:"
+msgstr ""
+
+#: src/app/foreign.vala:553
+msgid "The selected packages can't be processed."
+msgstr ""
+
+#: src/app/foreign.vala:573
+msgid "An error occurred while applying the changes."
+msgstr ""
+
+#: src/app/foreign.vala:586
+msgid "C_lear"
+msgstr ""
+
+#: src/app/keys.vala:314
+#, c-format
+msgid "Used by: %s"
+msgstr ""
+
+#: src/app/main.vala:20
+msgid "This version of Debian isn't supported."
+msgstr ""
+
+#: src/app/main.vala:21
+#, c-format
+msgid "The release \"%s\" is not supported by Software Sources."
+msgstr ""
+
+#: src/app/main.vala:64 src/app/main.vala:69
+msgid "Administrator privileges are required."
+msgstr ""
+
+#: src/app/main.vala:65
+msgid ""
+"Software Sources needs administrator privileges to change the software "
+"sources of the system."
+msgstr ""
+
+#: src/app/main.vala:78
+msgid "The software sources could not be loaded."
+msgstr ""
+
+#: src/app/mirror-dialog.vala:44
+msgid "Country"
+msgstr ""
+
+#: src/app/mirror-dialog.vala:48
+msgid "Server"
+msgstr ""
+
+#: src/app/mirror-dialog.vala:53
+msgid "Speed"
+msgstr ""
+
+#: src/app/mirror-dialog.vala:229 src/app/mirror-dialog.vala:233
+msgid "kB/s"
+msgstr ""
+
+#: src/app/mirror-dialog.vala:236
+msgid "MB/s"
+msgstr ""
+
+#: src/app/mirror-dialog.vala:240
+msgid "GB/s"
+msgstr ""
+
+#: src/app/mirror-dialog.vala:334
+msgid "Obsolete"
+msgstr ""
+
+#: src/app/mirror-dialog.vala:336
+msgid "Unreachable"
+msgstr ""
+
+#: src/app/privileged.vala:115
+msgid "The privileged helper stopped unexpectedly."
+msgstr ""
+
+#: src/app/privileged.vala:166
+msgid "The privileged helper is not running."
+msgstr ""
+
+#: src/app/source.vala:18
+msgid "CD-ROM (Installation Disc)"
+msgstr ""
+
+#: src/app/source.vala:21
+msgid "Local Repository"
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:6
+msgid "force yes on all confirmation questions"
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:7
+msgid "Remove the specified repository"
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:18
+msgid "repository"
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:28
+msgid "Error: must run as root"
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:33
+msgid "Error: need a repository as argument"
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:40
+msgid "PPAs are built for Ubuntu and are not supported on Debian."
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:62
+msgid "Repository not found."
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:66
+#, c-format
+msgid "Removing from %s:"
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:72
+msgid "Repository already exists."
+msgstr ""
+
+#: src/cli/add-apt-repository.vala:77
+#, c-format
+msgid "Added to %s:"
+msgstr ""

@@ -1,0 +1,7 @@
+# A comment before the stanza
+Types: deb
+URIs: https://deb822-disabled.example.com
+Enabled: no
+Suites: stable
+Components: main
+Signed-By: /usr/share/keyrings/deb822.gpg
